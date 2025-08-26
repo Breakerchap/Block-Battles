@@ -1,0 +1,28 @@
+# Minecraft Datapack basics
+# Ignore compiled/packaged zips
+*.zip
+
+# Ignore pack icon backups
+pack.png~
+
+# Ignore world save folders if you test locally
+# (uncomment the next line if your datapack is inside a test world folder)
+# world/
+
+# Common OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.iml
+
+# Python / scripts cache (if you generate stuff)
+__pycache__/
+*.pyc
+
+# Logs / temporary
+*.log
+*.tmp
