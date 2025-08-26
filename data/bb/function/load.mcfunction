@@ -1,0 +1,18 @@
+scoreboard objectives add damage dummy
+scoreboard objectives add defense dummy
+scoreboard objectives add healing dummy
+
+function bb:blocks/set_block_stats
+
+team add red "Red"
+team add blue "Blue"
+
+# 0 = red, 1 = blue
+scoreboard objectives add current_turn dummy
+scoreboard players set global current_turn 0
+
+scoreboard objectives add health dummy "Health"
+scoreboard objectives add max_health dummy
+scoreboard objectives add defense dummy "defense"
+scoreboard players set @a health 20
+scoreboard players set @a max_health 20
