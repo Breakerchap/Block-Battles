@@ -16,3 +16,5 @@ scoreboard objectives add max_health dummy
 scoreboard objectives add defense dummy "defense"
 scoreboard players set @a health 20
 scoreboard players set @a max_health 20
+
+function bb:blocks/activate_blocks

@@ -46,9 +46,9 @@ scoreboard players set tube_coral_block healing 0
 scoreboard players set bubble_coral_block damage 0
 scoreboard players set bubble_coral_block defense 0
 scoreboard players set bubble_coral_block healing 0
-scoreboard players set soul_campfie damage 0
-scoreboard players set soul_campfie defense 0
-scoreboard players set soul_campfie healing 0
+scoreboard players set soul_campfire damage 0
+scoreboard players set soul_campfire defense 0
+scoreboard players set soul_campfire healing 0
 scoreboard players set horn_coral_fan damage 4
 scoreboard players set horn_coral_fan defense 0
 scoreboard players set horn_coral_fan healing 0
@@ -115,9 +115,9 @@ scoreboard players set reinforced_deepslate healing 0
 scoreboard players set deepslate_bricks damage 0
 scoreboard players set deepslate_bricks defense 0
 scoreboard players set deepslate_bricks healing 0
-scoreboard players set deepslate_bricks damage 0
-scoreboard players set deepslate_bricks defense 6
-scoreboard players set deepslate_bricks healing -3
+scoreboard players set deepslate_tiles damage 0
+scoreboard players set deepslate_tiles defense 6
+scoreboard players set deepslate_tiles healing -3
 scoreboard players set deepslate_redstone_ore damage 0
 scoreboard players set deepslate_redstone_ore defense 0
 scoreboard players set deepslate_redstone_ore healing 0
