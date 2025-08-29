@@ -13,8 +13,8 @@ scoreboard players set global current_turn 0
 
 scoreboard objectives add health dummy "Health"
 scoreboard objectives add max_health dummy
-scoreboard objectives add defense dummy "defense"
-scoreboard players set @a health 20
-scoreboard players set @a max_health 20
+scoreboard objectives add defense dummy "Defense"
+scoreboard players set @a health 40
+scoreboard players set @a max_health 40
 
 function bb:blocks/activate_blocks
