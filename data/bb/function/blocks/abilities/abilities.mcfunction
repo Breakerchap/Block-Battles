@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=board] at @s if block ~ ~2 ~ tnt run fill ~1 ~2 ~1 ~-1 ~2 ~-1 air
