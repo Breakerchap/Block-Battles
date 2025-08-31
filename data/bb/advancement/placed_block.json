@@ -1,0 +1,9 @@
+{
+  "criteria": {
+    "placed_any": {
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "requirements": [["placed_any"]],
+  "rewards": { "function": "bb:match/turns/change_turn" }
+}

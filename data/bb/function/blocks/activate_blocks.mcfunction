@@ -52,24 +52,24 @@ execute as @a[team=blue,scores={placed_deepslate=1..}] run scoreboard players op
 execute as @a[team=blue,scores={placed_deepslate=1..}] run scoreboard players operation @a[team=blue] health += deepslate healing
 execute as @a[team=blue,scores={placed_deepslate=1..}] run scoreboard players add blue count_deepslate 1
 scoreboard players set @a[scores={placed_deepslate=1..}] placed_deepslate 0
-execute as @a[team=red,scores={placed_grass=1..}] run scoreboard players operation @a[team=blue] health -= grass damage
-execute as @a[team=red,scores={placed_grass=1..}] run scoreboard players operation @a[team=red] defense += grass defense
-execute as @a[team=red,scores={placed_grass=1..}] run scoreboard players operation @a[team=red] health += grass healing
-execute as @a[team=red,scores={placed_grass=1..}] run scoreboard players add red count_grass 1
-execute as @a[team=blue,scores={placed_grass=1..}] run scoreboard players operation @a[team=red] health -= grass damage
-execute as @a[team=blue,scores={placed_grass=1..}] run scoreboard players operation @a[team=blue] defense += grass defense
-execute as @a[team=blue,scores={placed_grass=1..}] run scoreboard players operation @a[team=blue] health += grass healing
-execute as @a[team=blue,scores={placed_grass=1..}] run scoreboard players add blue count_grass 1
-scoreboard players set @a[scores={placed_grass=1..}] placed_grass 0
-execute as @a[team=red,scores={placed_farmland_unchoosable_=1..}] run scoreboard players operation @a[team=blue] health -= farmland_unchoosable_ damage
-execute as @a[team=red,scores={placed_farmland_unchoosable_=1..}] run scoreboard players operation @a[team=red] defense += farmland_unchoosable_ defense
-execute as @a[team=red,scores={placed_farmland_unchoosable_=1..}] run scoreboard players operation @a[team=red] health += farmland_unchoosable_ healing
-execute as @a[team=red,scores={placed_farmland_unchoosable_=1..}] run scoreboard players add red count_farmland_unchoosable_ 1
-execute as @a[team=blue,scores={placed_farmland_unchoosable_=1..}] run scoreboard players operation @a[team=red] health -= farmland_unchoosable_ damage
-execute as @a[team=blue,scores={placed_farmland_unchoosable_=1..}] run scoreboard players operation @a[team=blue] defense += farmland_unchoosable_ defense
-execute as @a[team=blue,scores={placed_farmland_unchoosable_=1..}] run scoreboard players operation @a[team=blue] health += farmland_unchoosable_ healing
-execute as @a[team=blue,scores={placed_farmland_unchoosable_=1..}] run scoreboard players add blue count_farmland_unchoosable_ 1
-scoreboard players set @a[scores={placed_farmland_unchoosable_=1..}] placed_farmland_unchoosable_ 0
+execute as @a[team=red,scores={placed_grass_block=1..}] run scoreboard players operation @a[team=blue] health -= grass_block damage
+execute as @a[team=red,scores={placed_grass_block=1..}] run scoreboard players operation @a[team=red] defense += grass_block defense
+execute as @a[team=red,scores={placed_grass_block=1..}] run scoreboard players operation @a[team=red] health += grass_block healing
+execute as @a[team=red,scores={placed_grass_block=1..}] run scoreboard players add red count_grass_block 1
+execute as @a[team=blue,scores={placed_grass_block=1..}] run scoreboard players operation @a[team=red] health -= grass_block damage
+execute as @a[team=blue,scores={placed_grass_block=1..}] run scoreboard players operation @a[team=blue] defense += grass_block defense
+execute as @a[team=blue,scores={placed_grass_block=1..}] run scoreboard players operation @a[team=blue] health += grass_block healing
+execute as @a[team=blue,scores={placed_grass_block=1..}] run scoreboard players add blue count_grass_block 1
+scoreboard players set @a[scores={placed_grass_block=1..}] placed_grass_block 0
+execute as @a[team=red,scores={placed_farmland=1..}] run scoreboard players operation @a[team=blue] health -= farmland damage
+execute as @a[team=red,scores={placed_farmland=1..}] run scoreboard players operation @a[team=red] defense += farmland defense
+execute as @a[team=red,scores={placed_farmland=1..}] run scoreboard players operation @a[team=red] health += farmland healing
+execute as @a[team=red,scores={placed_farmland=1..}] run scoreboard players add red count_farmland 1
+execute as @a[team=blue,scores={placed_farmland=1..}] run scoreboard players operation @a[team=red] health -= farmland damage
+execute as @a[team=blue,scores={placed_farmland=1..}] run scoreboard players operation @a[team=blue] defense += farmland defense
+execute as @a[team=blue,scores={placed_farmland=1..}] run scoreboard players operation @a[team=blue] health += farmland healing
+execute as @a[team=blue,scores={placed_farmland=1..}] run scoreboard players add blue count_farmland 1
+scoreboard players set @a[scores={placed_farmland=1..}] placed_farmland 0
 execute as @a[team=red,scores={placed_soul_sand=1..}] run scoreboard players operation @a[team=blue] health -= soul_sand damage
 execute as @a[team=red,scores={placed_soul_sand=1..}] run scoreboard players operation @a[team=red] defense += soul_sand defense
 execute as @a[team=red,scores={placed_soul_sand=1..}] run scoreboard players operation @a[team=red] health += soul_sand healing
@@ -169,15 +169,15 @@ execute as @a[team=blue,scores={placed_conduit=1..}] run scoreboard players oper
 execute as @a[team=blue,scores={placed_conduit=1..}] run scoreboard players operation @a[team=blue] health += conduit healing
 execute as @a[team=blue,scores={placed_conduit=1..}] run scoreboard players add blue count_conduit 1
 scoreboard players set @a[scores={placed_conduit=1..}] placed_conduit 0
-execute as @a[team=red,scores={placed_bed=1..}] run scoreboard players operation @a[team=blue] health -= bed damage
-execute as @a[team=red,scores={placed_bed=1..}] run scoreboard players operation @a[team=red] defense += bed defense
-execute as @a[team=red,scores={placed_bed=1..}] run scoreboard players operation @a[team=red] health += bed healing
-execute as @a[team=red,scores={placed_bed=1..}] run scoreboard players add red count_bed 1
-execute as @a[team=blue,scores={placed_bed=1..}] run scoreboard players operation @a[team=red] health -= bed damage
-execute as @a[team=blue,scores={placed_bed=1..}] run scoreboard players operation @a[team=blue] defense += bed defense
-execute as @a[team=blue,scores={placed_bed=1..}] run scoreboard players operation @a[team=blue] health += bed healing
-execute as @a[team=blue,scores={placed_bed=1..}] run scoreboard players add blue count_bed 1
-scoreboard players set @a[scores={placed_bed=1..}] placed_bed 0
+execute as @a[team=red,scores={placed_red_bed=1..}] run scoreboard players operation @a[team=blue] health -= bed damage
+execute as @a[team=red,scores={placed_red_bed=1..}] run scoreboard players operation @a[team=red] defense += bed defense
+execute as @a[team=red,scores={placed_red_bed=1..}] run scoreboard players operation @a[team=red] health += bed healing
+execute as @a[team=red,scores={placed_red_bed=1..}] run scoreboard players add red count_red_bed 1
+execute as @a[team=blue,scores={placed_red_bed=1..}] run scoreboard players operation @a[team=red] health -= bed damage
+execute as @a[team=blue,scores={placed_red_bed=1..}] run scoreboard players operation @a[team=blue] defense += bed defense
+execute as @a[team=blue,scores={placed_red_bed=1..}] run scoreboard players operation @a[team=blue] health += bed healing
+execute as @a[team=blue,scores={placed_red_bed=1..}] run scoreboard players add blue count_red_bed 1
+scoreboard players set @a[scores={placed_red_bed=1..}] placed_red_bed 0
 execute as @a[team=red,scores={placed_glass=1..}] run scoreboard players operation @a[team=blue] health -= glass damage
 execute as @a[team=red,scores={placed_glass=1..}] run scoreboard players operation @a[team=red] defense += glass defense
 execute as @a[team=red,scores={placed_glass=1..}] run scoreboard players operation @a[team=red] health += glass healing
@@ -403,15 +403,15 @@ execute as @a[team=blue,scores={placed_bedrock=1..}] run scoreboard players oper
 execute as @a[team=blue,scores={placed_bedrock=1..}] run scoreboard players operation @a[team=blue] health += bedrock healing
 execute as @a[team=blue,scores={placed_bedrock=1..}] run scoreboard players add blue count_bedrock 1
 scoreboard players set @a[scores={placed_bedrock=1..}] placed_bedrock 0
-execute as @a[team=red,scores={placed_endstone=1..}] run scoreboard players operation @a[team=blue] health -= endstone damage
-execute as @a[team=red,scores={placed_endstone=1..}] run scoreboard players operation @a[team=red] defense += endstone defense
-execute as @a[team=red,scores={placed_endstone=1..}] run scoreboard players operation @a[team=red] health += endstone healing
-execute as @a[team=red,scores={placed_endstone=1..}] run scoreboard players add red count_endstone 1
-execute as @a[team=blue,scores={placed_endstone=1..}] run scoreboard players operation @a[team=red] health -= endstone damage
-execute as @a[team=blue,scores={placed_endstone=1..}] run scoreboard players operation @a[team=blue] defense += endstone defense
-execute as @a[team=blue,scores={placed_endstone=1..}] run scoreboard players operation @a[team=blue] health += endstone healing
-execute as @a[team=blue,scores={placed_endstone=1..}] run scoreboard players add blue count_endstone 1
-scoreboard players set @a[scores={placed_endstone=1..}] placed_endstone 0
+execute as @a[team=red,scores={placed_end_stone=1..}] run scoreboard players operation @a[team=blue] health -= endstone damage
+execute as @a[team=red,scores={placed_end_stone=1..}] run scoreboard players operation @a[team=red] defense += endstone defense
+execute as @a[team=red,scores={placed_end_stone=1..}] run scoreboard players operation @a[team=red] health += endstone healing
+execute as @a[team=red,scores={placed_end_stone=1..}] run scoreboard players add red count_end_stone 1
+execute as @a[team=blue,scores={placed_end_stone=1..}] run scoreboard players operation @a[team=red] health -= endstone damage
+execute as @a[team=blue,scores={placed_end_stone=1..}] run scoreboard players operation @a[team=blue] defense += endstone defense
+execute as @a[team=blue,scores={placed_end_stone=1..}] run scoreboard players operation @a[team=blue] health += endstone healing
+execute as @a[team=blue,scores={placed_end_stone=1..}] run scoreboard players add blue count_end_stone 1
+scoreboard players set @a[scores={placed_end_stone=1..}] placed_end_stone 0
 execute as @a[team=red,scores={placed_mud=1..}] run scoreboard players operation @a[team=blue] health -= mud damage
 execute as @a[team=red,scores={placed_mud=1..}] run scoreboard players operation @a[team=red] defense += mud defense
 execute as @a[team=red,scores={placed_mud=1..}] run scoreboard players operation @a[team=red] health += mud healing
@@ -430,78 +430,78 @@ execute as @a[team=blue,scores={placed_dragon_egg=1..}] run scoreboard players o
 execute as @a[team=blue,scores={placed_dragon_egg=1..}] run scoreboard players operation @a[team=blue] health += dragon_egg healing
 execute as @a[team=blue,scores={placed_dragon_egg=1..}] run scoreboard players add blue count_dragon_egg 1
 scoreboard players set @a[scores={placed_dragon_egg=1..}] placed_dragon_egg 0
-execute as @a[team=red,scores={placed_block_of_iron=1..}] run scoreboard players operation @a[team=blue] health -= block_of_iron damage
-execute as @a[team=red,scores={placed_block_of_iron=1..}] run scoreboard players operation @a[team=red] defense += block_of_iron defense
-execute as @a[team=red,scores={placed_block_of_iron=1..}] run scoreboard players operation @a[team=red] health += block_of_iron healing
-execute as @a[team=red,scores={placed_block_of_iron=1..}] run scoreboard players add red count_block_of_iron 1
-execute as @a[team=blue,scores={placed_block_of_iron=1..}] run scoreboard players operation @a[team=red] health -= block_of_iron damage
-execute as @a[team=blue,scores={placed_block_of_iron=1..}] run scoreboard players operation @a[team=blue] defense += block_of_iron defense
-execute as @a[team=blue,scores={placed_block_of_iron=1..}] run scoreboard players operation @a[team=blue] health += block_of_iron healing
-execute as @a[team=blue,scores={placed_block_of_iron=1..}] run scoreboard players add blue count_block_of_iron 1
-scoreboard players set @a[scores={placed_block_of_iron=1..}] placed_block_of_iron 0
-execute as @a[team=red,scores={placed_block_of_emerald=1..}] run scoreboard players operation @a[team=blue] health -= block_of_emerald damage
-execute as @a[team=red,scores={placed_block_of_emerald=1..}] run scoreboard players operation @a[team=red] defense += block_of_emerald defense
-execute as @a[team=red,scores={placed_block_of_emerald=1..}] run scoreboard players operation @a[team=red] health += block_of_emerald healing
-execute as @a[team=red,scores={placed_block_of_emerald=1..}] run scoreboard players add red count_block_of_emerald 1
-execute as @a[team=blue,scores={placed_block_of_emerald=1..}] run scoreboard players operation @a[team=red] health -= block_of_emerald damage
-execute as @a[team=blue,scores={placed_block_of_emerald=1..}] run scoreboard players operation @a[team=blue] defense += block_of_emerald defense
-execute as @a[team=blue,scores={placed_block_of_emerald=1..}] run scoreboard players operation @a[team=blue] health += block_of_emerald healing
-execute as @a[team=blue,scores={placed_block_of_emerald=1..}] run scoreboard players add blue count_block_of_emerald 1
-scoreboard players set @a[scores={placed_block_of_emerald=1..}] placed_block_of_emerald 0
-execute as @a[team=red,scores={placed_block_of_diamond=1..}] run scoreboard players operation @a[team=blue] health -= block_of_diamond damage
-execute as @a[team=red,scores={placed_block_of_diamond=1..}] run scoreboard players operation @a[team=red] defense += block_of_diamond defense
-execute as @a[team=red,scores={placed_block_of_diamond=1..}] run scoreboard players operation @a[team=red] health += block_of_diamond healing
-execute as @a[team=red,scores={placed_block_of_diamond=1..}] run scoreboard players add red count_block_of_diamond 1
-execute as @a[team=blue,scores={placed_block_of_diamond=1..}] run scoreboard players operation @a[team=red] health -= block_of_diamond damage
-execute as @a[team=blue,scores={placed_block_of_diamond=1..}] run scoreboard players operation @a[team=blue] defense += block_of_diamond defense
-execute as @a[team=blue,scores={placed_block_of_diamond=1..}] run scoreboard players operation @a[team=blue] health += block_of_diamond healing
-execute as @a[team=blue,scores={placed_block_of_diamond=1..}] run scoreboard players add blue count_block_of_diamond 1
-scoreboard players set @a[scores={placed_block_of_diamond=1..}] placed_block_of_diamond 0
-execute as @a[team=red,scores={placed_block_of_gold=1..}] run scoreboard players operation @a[team=blue] health -= block_of_gold damage
-execute as @a[team=red,scores={placed_block_of_gold=1..}] run scoreboard players operation @a[team=red] defense += block_of_gold defense
-execute as @a[team=red,scores={placed_block_of_gold=1..}] run scoreboard players operation @a[team=red] health += block_of_gold healing
-execute as @a[team=red,scores={placed_block_of_gold=1..}] run scoreboard players add red count_block_of_gold 1
-execute as @a[team=blue,scores={placed_block_of_gold=1..}] run scoreboard players operation @a[team=red] health -= block_of_gold damage
-execute as @a[team=blue,scores={placed_block_of_gold=1..}] run scoreboard players operation @a[team=blue] defense += block_of_gold defense
-execute as @a[team=blue,scores={placed_block_of_gold=1..}] run scoreboard players operation @a[team=blue] health += block_of_gold healing
-execute as @a[team=blue,scores={placed_block_of_gold=1..}] run scoreboard players add blue count_block_of_gold 1
-scoreboard players set @a[scores={placed_block_of_gold=1..}] placed_block_of_gold 0
-execute as @a[team=red,scores={placed_block_of_redstone=1..}] run scoreboard players operation @a[team=blue] health -= block_of_redstone damage
-execute as @a[team=red,scores={placed_block_of_redstone=1..}] run scoreboard players operation @a[team=red] defense += block_of_redstone defense
-execute as @a[team=red,scores={placed_block_of_redstone=1..}] run scoreboard players operation @a[team=red] health += block_of_redstone healing
-execute as @a[team=red,scores={placed_block_of_redstone=1..}] run scoreboard players add red count_block_of_redstone 1
-execute as @a[team=blue,scores={placed_block_of_redstone=1..}] run scoreboard players operation @a[team=red] health -= block_of_redstone damage
-execute as @a[team=blue,scores={placed_block_of_redstone=1..}] run scoreboard players operation @a[team=blue] defense += block_of_redstone defense
-execute as @a[team=blue,scores={placed_block_of_redstone=1..}] run scoreboard players operation @a[team=blue] health += block_of_redstone healing
-execute as @a[team=blue,scores={placed_block_of_redstone=1..}] run scoreboard players add blue count_block_of_redstone 1
-scoreboard players set @a[scores={placed_block_of_redstone=1..}] placed_block_of_redstone 0
-execute as @a[team=red,scores={placed_block_of_netherite=1..}] run scoreboard players operation @a[team=blue] health -= block_of_netherite damage
-execute as @a[team=red,scores={placed_block_of_netherite=1..}] run scoreboard players operation @a[team=red] defense += block_of_netherite defense
-execute as @a[team=red,scores={placed_block_of_netherite=1..}] run scoreboard players operation @a[team=red] health += block_of_netherite healing
-execute as @a[team=red,scores={placed_block_of_netherite=1..}] run scoreboard players add red count_block_of_netherite 1
-execute as @a[team=blue,scores={placed_block_of_netherite=1..}] run scoreboard players operation @a[team=red] health -= block_of_netherite damage
-execute as @a[team=blue,scores={placed_block_of_netherite=1..}] run scoreboard players operation @a[team=blue] defense += block_of_netherite defense
-execute as @a[team=blue,scores={placed_block_of_netherite=1..}] run scoreboard players operation @a[team=blue] health += block_of_netherite healing
-execute as @a[team=blue,scores={placed_block_of_netherite=1..}] run scoreboard players add blue count_block_of_netherite 1
-scoreboard players set @a[scores={placed_block_of_netherite=1..}] placed_block_of_netherite 0
-execute as @a[team=red,scores={placed_block_of_coal=1..}] run scoreboard players operation @a[team=blue] health -= block_of_coal damage
-execute as @a[team=red,scores={placed_block_of_coal=1..}] run scoreboard players operation @a[team=red] defense += block_of_coal defense
-execute as @a[team=red,scores={placed_block_of_coal=1..}] run scoreboard players operation @a[team=red] health += block_of_coal healing
-execute as @a[team=red,scores={placed_block_of_coal=1..}] run scoreboard players add red count_block_of_coal 1
-execute as @a[team=blue,scores={placed_block_of_coal=1..}] run scoreboard players operation @a[team=red] health -= block_of_coal damage
-execute as @a[team=blue,scores={placed_block_of_coal=1..}] run scoreboard players operation @a[team=blue] defense += block_of_coal defense
-execute as @a[team=blue,scores={placed_block_of_coal=1..}] run scoreboard players operation @a[team=blue] health += block_of_coal healing
-execute as @a[team=blue,scores={placed_block_of_coal=1..}] run scoreboard players add blue count_block_of_coal 1
-scoreboard players set @a[scores={placed_block_of_coal=1..}] placed_block_of_coal 0
-execute as @a[team=red,scores={placed_block_of_lapis_lazuli=1..}] run scoreboard players operation @a[team=blue] health -= block_of_lapis_lazuli damage
-execute as @a[team=red,scores={placed_block_of_lapis_lazuli=1..}] run scoreboard players operation @a[team=red] defense += block_of_lapis_lazuli defense
-execute as @a[team=red,scores={placed_block_of_lapis_lazuli=1..}] run scoreboard players operation @a[team=red] health += block_of_lapis_lazuli healing
-execute as @a[team=red,scores={placed_block_of_lapis_lazuli=1..}] run scoreboard players add red count_block_of_lapis_lazuli 1
-execute as @a[team=blue,scores={placed_block_of_lapis_lazuli=1..}] run scoreboard players operation @a[team=red] health -= block_of_lapis_lazuli damage
-execute as @a[team=blue,scores={placed_block_of_lapis_lazuli=1..}] run scoreboard players operation @a[team=blue] defense += block_of_lapis_lazuli defense
-execute as @a[team=blue,scores={placed_block_of_lapis_lazuli=1..}] run scoreboard players operation @a[team=blue] health += block_of_lapis_lazuli healing
-execute as @a[team=blue,scores={placed_block_of_lapis_lazuli=1..}] run scoreboard players add blue count_block_of_lapis_lazuli 1
-scoreboard players set @a[scores={placed_block_of_lapis_lazuli=1..}] placed_block_of_lapis_lazuli 0
+execute as @a[team=red,scores={placed_iron_block=1..}] run scoreboard players operation @a[team=blue] health -= iron_block damage
+execute as @a[team=red,scores={placed_iron_block=1..}] run scoreboard players operation @a[team=red] defense += iron_block defense
+execute as @a[team=red,scores={placed_iron_block=1..}] run scoreboard players operation @a[team=red] health += iron_block healing
+execute as @a[team=red,scores={placed_iron_block=1..}] run scoreboard players add red count_iron_block 1
+execute as @a[team=blue,scores={placed_iron_block=1..}] run scoreboard players operation @a[team=red] health -= iron_block damage
+execute as @a[team=blue,scores={placed_iron_block=1..}] run scoreboard players operation @a[team=blue] defense += iron_block defense
+execute as @a[team=blue,scores={placed_iron_block=1..}] run scoreboard players operation @a[team=blue] health += iron_block healing
+execute as @a[team=blue,scores={placed_iron_block=1..}] run scoreboard players add blue count_iron_block 1
+scoreboard players set @a[scores={placed_iron_block=1..}] placed_iron_block 0
+execute as @a[team=red,scores={placed_emerald_block=1..}] run scoreboard players operation @a[team=blue] health -= emerald_block damage
+execute as @a[team=red,scores={placed_emerald_block=1..}] run scoreboard players operation @a[team=red] defense += emerald_block defense
+execute as @a[team=red,scores={placed_emerald_block=1..}] run scoreboard players operation @a[team=red] health += emerald_block healing
+execute as @a[team=red,scores={placed_emerald_block=1..}] run scoreboard players add red count_emerald_block 1
+execute as @a[team=blue,scores={placed_emerald_block=1..}] run scoreboard players operation @a[team=red] health -= emerald_block damage
+execute as @a[team=blue,scores={placed_emerald_block=1..}] run scoreboard players operation @a[team=blue] defense += emerald_block defense
+execute as @a[team=blue,scores={placed_emerald_block=1..}] run scoreboard players operation @a[team=blue] health += emerald_block healing
+execute as @a[team=blue,scores={placed_emerald_block=1..}] run scoreboard players add blue count_emerald_block 1
+scoreboard players set @a[scores={placed_emerald_block=1..}] placed_emerald_block 0
+execute as @a[team=red,scores={placed_diamond_block=1..}] run scoreboard players operation @a[team=blue] health -= diamond_block damage
+execute as @a[team=red,scores={placed_diamond_block=1..}] run scoreboard players operation @a[team=red] defense += diamond_block defense
+execute as @a[team=red,scores={placed_diamond_block=1..}] run scoreboard players operation @a[team=red] health += diamond_block healing
+execute as @a[team=red,scores={placed_diamond_block=1..}] run scoreboard players add red count_diamond_block 1
+execute as @a[team=blue,scores={placed_diamond_block=1..}] run scoreboard players operation @a[team=red] health -= diamond_block damage
+execute as @a[team=blue,scores={placed_diamond_block=1..}] run scoreboard players operation @a[team=blue] defense += diamond_block defense
+execute as @a[team=blue,scores={placed_diamond_block=1..}] run scoreboard players operation @a[team=blue] health += diamond_block healing
+execute as @a[team=blue,scores={placed_diamond_block=1..}] run scoreboard players add blue count_diamond_block 1
+scoreboard players set @a[scores={placed_diamond_block=1..}] placed_diamond_block 0
+execute as @a[team=red,scores={placed_gold_block=1..}] run scoreboard players operation @a[team=blue] health -= gold_block damage
+execute as @a[team=red,scores={placed_gold_block=1..}] run scoreboard players operation @a[team=red] defense += gold_block defense
+execute as @a[team=red,scores={placed_gold_block=1..}] run scoreboard players operation @a[team=red] health += gold_block healing
+execute as @a[team=red,scores={placed_gold_block=1..}] run scoreboard players add red count_gold_block 1
+execute as @a[team=blue,scores={placed_gold_block=1..}] run scoreboard players operation @a[team=red] health -= gold_block damage
+execute as @a[team=blue,scores={placed_gold_block=1..}] run scoreboard players operation @a[team=blue] defense += gold_block defense
+execute as @a[team=blue,scores={placed_gold_block=1..}] run scoreboard players operation @a[team=blue] health += gold_block healing
+execute as @a[team=blue,scores={placed_gold_block=1..}] run scoreboard players add blue count_gold_block 1
+scoreboard players set @a[scores={placed_gold_block=1..}] placed_gold_block 0
+execute as @a[team=red,scores={placed_redstone_block=1..}] run scoreboard players operation @a[team=blue] health -= redstone_block damage
+execute as @a[team=red,scores={placed_redstone_block=1..}] run scoreboard players operation @a[team=red] defense += redstone_block defense
+execute as @a[team=red,scores={placed_redstone_block=1..}] run scoreboard players operation @a[team=red] health += redstone_block healing
+execute as @a[team=red,scores={placed_redstone_block=1..}] run scoreboard players add red count_redstone_block 1
+execute as @a[team=blue,scores={placed_redstone_block=1..}] run scoreboard players operation @a[team=red] health -= redstone_block damage
+execute as @a[team=blue,scores={placed_redstone_block=1..}] run scoreboard players operation @a[team=blue] defense += redstone_block defense
+execute as @a[team=blue,scores={placed_redstone_block=1..}] run scoreboard players operation @a[team=blue] health += redstone_block healing
+execute as @a[team=blue,scores={placed_redstone_block=1..}] run scoreboard players add blue count_redstone_block 1
+scoreboard players set @a[scores={placed_redstone_block=1..}] placed_redstone_block 0
+execute as @a[team=red,scores={placed_netherite_block=1..}] run scoreboard players operation @a[team=blue] health -= netherite_block damage
+execute as @a[team=red,scores={placed_netherite_block=1..}] run scoreboard players operation @a[team=red] defense += netherite_block defense
+execute as @a[team=red,scores={placed_netherite_block=1..}] run scoreboard players operation @a[team=red] health += netherite_block healing
+execute as @a[team=red,scores={placed_netherite_block=1..}] run scoreboard players add red count_netherite_block 1
+execute as @a[team=blue,scores={placed_netherite_block=1..}] run scoreboard players operation @a[team=red] health -= netherite_block damage
+execute as @a[team=blue,scores={placed_netherite_block=1..}] run scoreboard players operation @a[team=blue] defense += netherite_block defense
+execute as @a[team=blue,scores={placed_netherite_block=1..}] run scoreboard players operation @a[team=blue] health += netherite_block healing
+execute as @a[team=blue,scores={placed_netherite_block=1..}] run scoreboard players add blue count_netherite_block 1
+scoreboard players set @a[scores={placed_netherite_block=1..}] placed_netherite_block 0
+execute as @a[team=red,scores={placed_coal_block=1..}] run scoreboard players operation @a[team=blue] health -= coal_block damage
+execute as @a[team=red,scores={placed_coal_block=1..}] run scoreboard players operation @a[team=red] defense += coal_block defense
+execute as @a[team=red,scores={placed_coal_block=1..}] run scoreboard players operation @a[team=red] health += coal_block healing
+execute as @a[team=red,scores={placed_coal_block=1..}] run scoreboard players add red count_coal_block 1
+execute as @a[team=blue,scores={placed_coal_block=1..}] run scoreboard players operation @a[team=red] health -= coal_block damage
+execute as @a[team=blue,scores={placed_coal_block=1..}] run scoreboard players operation @a[team=blue] defense += coal_block defense
+execute as @a[team=blue,scores={placed_coal_block=1..}] run scoreboard players operation @a[team=blue] health += coal_block healing
+execute as @a[team=blue,scores={placed_coal_block=1..}] run scoreboard players add blue count_coal_block 1
+scoreboard players set @a[scores={placed_coal_block=1..}] placed_coal_block 0
+execute as @a[team=red,scores={placed_lapis_block=1..}] run scoreboard players operation @a[team=blue] health -= lapis_block damage
+execute as @a[team=red,scores={placed_lapis_block=1..}] run scoreboard players operation @a[team=red] defense += lapis_block defense
+execute as @a[team=red,scores={placed_lapis_block=1..}] run scoreboard players operation @a[team=red] health += lapis_block healing
+execute as @a[team=red,scores={placed_lapis_block=1..}] run scoreboard players add red count_lapis_block 1
+execute as @a[team=blue,scores={placed_lapis_block=1..}] run scoreboard players operation @a[team=red] health -= lapis_block damage
+execute as @a[team=blue,scores={placed_lapis_block=1..}] run scoreboard players operation @a[team=blue] defense += lapis_block defense
+execute as @a[team=blue,scores={placed_lapis_block=1..}] run scoreboard players operation @a[team=blue] health += lapis_block healing
+execute as @a[team=blue,scores={placed_lapis_block=1..}] run scoreboard players add blue count_lapis_block 1
+scoreboard players set @a[scores={placed_lapis_block=1..}] placed_lapis_block 0
 execute as @a[team=red,scores={placed_lightning_rod=1..}] run scoreboard players operation @a[team=blue] health -= lightning_rod damage
 execute as @a[team=red,scores={placed_lightning_rod=1..}] run scoreboard players operation @a[team=red] defense += lightning_rod defense
 execute as @a[team=red,scores={placed_lightning_rod=1..}] run scoreboard players operation @a[team=red] health += lightning_rod healing
@@ -520,24 +520,24 @@ execute as @a[team=blue,scores={placed_moss_block=1..}] run scoreboard players o
 execute as @a[team=blue,scores={placed_moss_block=1..}] run scoreboard players operation @a[team=blue] health += moss_block healing
 execute as @a[team=blue,scores={placed_moss_block=1..}] run scoreboard players add blue count_moss_block 1
 scoreboard players set @a[scores={placed_moss_block=1..}] placed_moss_block 0
-execute as @a[team=red,scores={placed_dry_bush=1..}] run scoreboard players operation @a[team=blue] health -= dry_bush damage
-execute as @a[team=red,scores={placed_dry_bush=1..}] run scoreboard players operation @a[team=red] defense += dry_bush defense
-execute as @a[team=red,scores={placed_dry_bush=1..}] run scoreboard players operation @a[team=red] health += dry_bush healing
-execute as @a[team=red,scores={placed_dry_bush=1..}] run scoreboard players add red count_dry_bush 1
-execute as @a[team=blue,scores={placed_dry_bush=1..}] run scoreboard players operation @a[team=red] health -= dry_bush damage
-execute as @a[team=blue,scores={placed_dry_bush=1..}] run scoreboard players operation @a[team=blue] defense += dry_bush defense
-execute as @a[team=blue,scores={placed_dry_bush=1..}] run scoreboard players operation @a[team=blue] health += dry_bush healing
-execute as @a[team=blue,scores={placed_dry_bush=1..}] run scoreboard players add blue count_dry_bush 1
-scoreboard players set @a[scores={placed_dry_bush=1..}] placed_dry_bush 0
-execute as @a[team=red,scores={placed_dirt_unchoosable_=1..}] run scoreboard players operation @a[team=blue] health -= dirt_unchoosable_ damage
-execute as @a[team=red,scores={placed_dirt_unchoosable_=1..}] run scoreboard players operation @a[team=red] defense += dirt_unchoosable_ defense
-execute as @a[team=red,scores={placed_dirt_unchoosable_=1..}] run scoreboard players operation @a[team=red] health += dirt_unchoosable_ healing
-execute as @a[team=red,scores={placed_dirt_unchoosable_=1..}] run scoreboard players add red count_dirt_unchoosable_ 1
-execute as @a[team=blue,scores={placed_dirt_unchoosable_=1..}] run scoreboard players operation @a[team=red] health -= dirt_unchoosable_ damage
-execute as @a[team=blue,scores={placed_dirt_unchoosable_=1..}] run scoreboard players operation @a[team=blue] defense += dirt_unchoosable_ defense
-execute as @a[team=blue,scores={placed_dirt_unchoosable_=1..}] run scoreboard players operation @a[team=blue] health += dirt_unchoosable_ healing
-execute as @a[team=blue,scores={placed_dirt_unchoosable_=1..}] run scoreboard players add blue count_dirt_unchoosable_ 1
-scoreboard players set @a[scores={placed_dirt_unchoosable_=1..}] placed_dirt_unchoosable_ 0
+execute as @a[team=red,scores={placed_dead_bush=1..}] run scoreboard players operation @a[team=blue] health -= dry_bush damage
+execute as @a[team=red,scores={placed_dead_bush=1..}] run scoreboard players operation @a[team=red] defense += dry_bush defense
+execute as @a[team=red,scores={placed_dead_bush=1..}] run scoreboard players operation @a[team=red] health += dry_bush healing
+execute as @a[team=red,scores={placed_dead_bush=1..}] run scoreboard players add red count_dead_bush 1
+execute as @a[team=blue,scores={placed_dead_bush=1..}] run scoreboard players operation @a[team=red] health -= dry_bush damage
+execute as @a[team=blue,scores={placed_dead_bush=1..}] run scoreboard players operation @a[team=blue] defense += dry_bush defense
+execute as @a[team=blue,scores={placed_dead_bush=1..}] run scoreboard players operation @a[team=blue] health += dry_bush healing
+execute as @a[team=blue,scores={placed_dead_bush=1..}] run scoreboard players add blue count_dead_bush 1
+scoreboard players set @a[scores={placed_dead_bush=1..}] placed_dead_bush 0
+execute as @a[team=red,scores={placed_dirt=1..}] run scoreboard players operation @a[team=blue] health -= dirt damage
+execute as @a[team=red,scores={placed_dirt=1..}] run scoreboard players operation @a[team=red] defense += dirt defense
+execute as @a[team=red,scores={placed_dirt=1..}] run scoreboard players operation @a[team=red] health += dirt healing
+execute as @a[team=red,scores={placed_dirt=1..}] run scoreboard players add red count_dirt 1
+execute as @a[team=blue,scores={placed_dirt=1..}] run scoreboard players operation @a[team=red] health -= dirt damage
+execute as @a[team=blue,scores={placed_dirt=1..}] run scoreboard players operation @a[team=blue] defense += dirt defense
+execute as @a[team=blue,scores={placed_dirt=1..}] run scoreboard players operation @a[team=blue] health += dirt healing
+execute as @a[team=blue,scores={placed_dirt=1..}] run scoreboard players add blue count_dirt 1
+scoreboard players set @a[scores={placed_dirt=1..}] placed_dirt 0
 execute as @a[team=red,scores={placed_anvil=1..}] run scoreboard players operation @a[team=blue] health -= anvil damage
 execute as @a[team=red,scores={placed_anvil=1..}] run scoreboard players operation @a[team=red] defense += anvil defense
 execute as @a[team=red,scores={placed_anvil=1..}] run scoreboard players operation @a[team=red] health += anvil healing
@@ -565,24 +565,24 @@ execute as @a[team=blue,scores={placed_repeater=1..}] run scoreboard players ope
 execute as @a[team=blue,scores={placed_repeater=1..}] run scoreboard players operation @a[team=blue] health += repeater healing
 execute as @a[team=blue,scores={placed_repeater=1..}] run scoreboard players add blue count_repeater 1
 scoreboard players set @a[scores={placed_repeater=1..}] placed_repeater 0
-execute as @a[team=red,scores={placed_daylight_sensor=1..}] run scoreboard players operation @a[team=blue] health -= daylight_sensor damage
-execute as @a[team=red,scores={placed_daylight_sensor=1..}] run scoreboard players operation @a[team=red] defense += daylight_sensor defense
-execute as @a[team=red,scores={placed_daylight_sensor=1..}] run scoreboard players operation @a[team=red] health += daylight_sensor healing
-execute as @a[team=red,scores={placed_daylight_sensor=1..}] run scoreboard players add red count_daylight_sensor 1
-execute as @a[team=blue,scores={placed_daylight_sensor=1..}] run scoreboard players operation @a[team=red] health -= daylight_sensor damage
-execute as @a[team=blue,scores={placed_daylight_sensor=1..}] run scoreboard players operation @a[team=blue] defense += daylight_sensor defense
-execute as @a[team=blue,scores={placed_daylight_sensor=1..}] run scoreboard players operation @a[team=blue] health += daylight_sensor healing
-execute as @a[team=blue,scores={placed_daylight_sensor=1..}] run scoreboard players add blue count_daylight_sensor 1
-scoreboard players set @a[scores={placed_daylight_sensor=1..}] placed_daylight_sensor 0
-execute as @a[team=red,scores={placed_powdered_snow=1..}] run scoreboard players operation @a[team=blue] health -= powdered_snow damage
-execute as @a[team=red,scores={placed_powdered_snow=1..}] run scoreboard players operation @a[team=red] defense += powdered_snow defense
-execute as @a[team=red,scores={placed_powdered_snow=1..}] run scoreboard players operation @a[team=red] health += powdered_snow healing
-execute as @a[team=red,scores={placed_powdered_snow=1..}] run scoreboard players add red count_powdered_snow 1
-execute as @a[team=blue,scores={placed_powdered_snow=1..}] run scoreboard players operation @a[team=red] health -= powdered_snow damage
-execute as @a[team=blue,scores={placed_powdered_snow=1..}] run scoreboard players operation @a[team=blue] defense += powdered_snow defense
-execute as @a[team=blue,scores={placed_powdered_snow=1..}] run scoreboard players operation @a[team=blue] health += powdered_snow healing
-execute as @a[team=blue,scores={placed_powdered_snow=1..}] run scoreboard players add blue count_powdered_snow 1
-scoreboard players set @a[scores={placed_powdered_snow=1..}] placed_powdered_snow 0
+execute as @a[team=red,scores={placed_daylight_detector=1..}] run scoreboard players operation @a[team=blue] health -= daylight_detector damage
+execute as @a[team=red,scores={placed_daylight_detector=1..}] run scoreboard players operation @a[team=red] defense += daylight_detector defense
+execute as @a[team=red,scores={placed_daylight_detector=1..}] run scoreboard players operation @a[team=red] health += daylight_detector healing
+execute as @a[team=red,scores={placed_daylight_detector=1..}] run scoreboard players add red count_daylight_detector 1
+execute as @a[team=blue,scores={placed_daylight_detector=1..}] run scoreboard players operation @a[team=red] health -= daylight_detector damage
+execute as @a[team=blue,scores={placed_daylight_detector=1..}] run scoreboard players operation @a[team=blue] defense += daylight_detector defense
+execute as @a[team=blue,scores={placed_daylight_detector=1..}] run scoreboard players operation @a[team=blue] health += daylight_detector healing
+execute as @a[team=blue,scores={placed_daylight_detector=1..}] run scoreboard players add blue count_daylight_detector 1
+scoreboard players set @a[scores={placed_daylight_detector=1..}] placed_daylight_detector 0
+execute as @a[team=red,scores={placed_powder_snow=1..}] run scoreboard players operation @a[team=blue] health -= powder_snow damage
+execute as @a[team=red,scores={placed_powder_snow=1..}] run scoreboard players operation @a[team=red] defense += powder_snow defense
+execute as @a[team=red,scores={placed_powder_snow=1..}] run scoreboard players operation @a[team=red] health += powder_snow healing
+execute as @a[team=red,scores={placed_powder_snow=1..}] run scoreboard players add red count_powder_snow 1
+execute as @a[team=blue,scores={placed_powder_snow=1..}] run scoreboard players operation @a[team=red] health -= powder_snow damage
+execute as @a[team=blue,scores={placed_powder_snow=1..}] run scoreboard players operation @a[team=blue] defense += powder_snow defense
+execute as @a[team=blue,scores={placed_powder_snow=1..}] run scoreboard players operation @a[team=blue] health += powder_snow healing
+execute as @a[team=blue,scores={placed_powder_snow=1..}] run scoreboard players add blue count_powder_snow 1
+scoreboard players set @a[scores={placed_powder_snow=1..}] placed_powder_snow 0
 execute as @a[team=red,scores={placed_beacon=1..}] run scoreboard players operation @a[team=blue] health -= beacon damage
 execute as @a[team=red,scores={placed_beacon=1..}] run scoreboard players operation @a[team=red] defense += beacon defense
 execute as @a[team=red,scores={placed_beacon=1..}] run scoreboard players operation @a[team=red] health += beacon healing
@@ -610,15 +610,15 @@ execute as @a[team=blue,scores={placed_nether_bricks=1..}] run scoreboard player
 execute as @a[team=blue,scores={placed_nether_bricks=1..}] run scoreboard players operation @a[team=blue] health += nether_bricks healing
 execute as @a[team=blue,scores={placed_nether_bricks=1..}] run scoreboard players add blue count_nether_bricks 1
 scoreboard players set @a[scores={placed_nether_bricks=1..}] placed_nether_bricks 0
-execute as @a[team=red,scores={placed_monster_spawner=1..}] run scoreboard players operation @a[team=blue] health -= monster_spawner damage
-execute as @a[team=red,scores={placed_monster_spawner=1..}] run scoreboard players operation @a[team=red] defense += monster_spawner defense
-execute as @a[team=red,scores={placed_monster_spawner=1..}] run scoreboard players operation @a[team=red] health += monster_spawner healing
-execute as @a[team=red,scores={placed_monster_spawner=1..}] run scoreboard players add red count_monster_spawner 1
-execute as @a[team=blue,scores={placed_monster_spawner=1..}] run scoreboard players operation @a[team=red] health -= monster_spawner damage
-execute as @a[team=blue,scores={placed_monster_spawner=1..}] run scoreboard players operation @a[team=blue] defense += monster_spawner defense
-execute as @a[team=blue,scores={placed_monster_spawner=1..}] run scoreboard players operation @a[team=blue] health += monster_spawner healing
-execute as @a[team=blue,scores={placed_monster_spawner=1..}] run scoreboard players add blue count_monster_spawner 1
-scoreboard players set @a[scores={placed_monster_spawner=1..}] placed_monster_spawner 0
+execute as @a[team=red,scores={placed_spawner=1..}] run scoreboard players operation @a[team=blue] health -= monster_spawner damage
+execute as @a[team=red,scores={placed_spawner=1..}] run scoreboard players operation @a[team=red] defense += monster_spawner defense
+execute as @a[team=red,scores={placed_spawner=1..}] run scoreboard players operation @a[team=red] health += monster_spawner healing
+execute as @a[team=red,scores={placed_spawner=1..}] run scoreboard players add red count_spawner 1
+execute as @a[team=blue,scores={placed_spawner=1..}] run scoreboard players operation @a[team=red] health -= monster_spawner damage
+execute as @a[team=blue,scores={placed_spawner=1..}] run scoreboard players operation @a[team=blue] defense += monster_spawner defense
+execute as @a[team=blue,scores={placed_spawner=1..}] run scoreboard players operation @a[team=blue] health += monster_spawner healing
+execute as @a[team=blue,scores={placed_spawner=1..}] run scoreboard players add blue count_spawner 1
+scoreboard players set @a[scores={placed_spawner=1..}] placed_spawner 0
 execute as @a[team=red,scores={placed_cake=1..}] run scoreboard players operation @a[team=blue] health -= cake damage
 execute as @a[team=red,scores={placed_cake=1..}] run scoreboard players operation @a[team=red] defense += cake defense
 execute as @a[team=red,scores={placed_cake=1..}] run scoreboard players operation @a[team=red] health += cake healing
@@ -664,15 +664,15 @@ execute as @a[team=blue,scores={placed_soul_torch=1..}] run scoreboard players o
 execute as @a[team=blue,scores={placed_soul_torch=1..}] run scoreboard players operation @a[team=blue] health += soul_torch healing
 execute as @a[team=blue,scores={placed_soul_torch=1..}] run scoreboard players add blue count_soul_torch 1
 scoreboard players set @a[scores={placed_soul_torch=1..}] placed_soul_torch 0
-execute as @a[team=red,scores={placed_dripstone=1..}] run scoreboard players operation @a[team=blue] health -= dripstone damage
-execute as @a[team=red,scores={placed_dripstone=1..}] run scoreboard players operation @a[team=red] defense += dripstone defense
-execute as @a[team=red,scores={placed_dripstone=1..}] run scoreboard players operation @a[team=red] health += dripstone healing
-execute as @a[team=red,scores={placed_dripstone=1..}] run scoreboard players add red count_dripstone 1
-execute as @a[team=blue,scores={placed_dripstone=1..}] run scoreboard players operation @a[team=red] health -= dripstone damage
-execute as @a[team=blue,scores={placed_dripstone=1..}] run scoreboard players operation @a[team=blue] defense += dripstone defense
-execute as @a[team=blue,scores={placed_dripstone=1..}] run scoreboard players operation @a[team=blue] health += dripstone healing
-execute as @a[team=blue,scores={placed_dripstone=1..}] run scoreboard players add blue count_dripstone 1
-scoreboard players set @a[scores={placed_dripstone=1..}] placed_dripstone 0
+execute as @a[team=red,scores={placed_pointed_dripstone=1..}] run scoreboard players operation @a[team=blue] health -= pointed_dripstone damage
+execute as @a[team=red,scores={placed_pointed_dripstone=1..}] run scoreboard players operation @a[team=red] defense += pointed_dripstone defense
+execute as @a[team=red,scores={placed_pointed_dripstone=1..}] run scoreboard players operation @a[team=red] health += pointed_dripstone healing
+execute as @a[team=red,scores={placed_pointed_dripstone=1..}] run scoreboard players add red count_pointed_dripstone 1
+execute as @a[team=blue,scores={placed_pointed_dripstone=1..}] run scoreboard players operation @a[team=red] health -= pointed_dripstone damage
+execute as @a[team=blue,scores={placed_pointed_dripstone=1..}] run scoreboard players operation @a[team=blue] defense += pointed_dripstone defense
+execute as @a[team=blue,scores={placed_pointed_dripstone=1..}] run scoreboard players operation @a[team=blue] health += pointed_dripstone healing
+execute as @a[team=blue,scores={placed_pointed_dripstone=1..}] run scoreboard players add blue count_pointed_dripstone 1
+scoreboard players set @a[scores={placed_pointed_dripstone=1..}] placed_pointed_dripstone 0
 execute as @a[team=red,scores={placed_prismarine=1..}] run scoreboard players operation @a[team=blue] health -= prismarine damage
 execute as @a[team=red,scores={placed_prismarine=1..}] run scoreboard players operation @a[team=red] defense += prismarine defense
 execute as @a[team=red,scores={placed_prismarine=1..}] run scoreboard players operation @a[team=red] health += prismarine healing
