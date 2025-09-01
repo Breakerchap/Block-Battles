@@ -17,8 +17,10 @@ scoreboard players set global current_turn 0
 scoreboard objectives add health dummy "Health"
 scoreboard objectives add max_health dummy
 scoreboard objectives add defense dummy "Defense"
-scoreboard players set @a health 40
-scoreboard players set @a max_health 40
+scoreboard players set red health 40
+scoreboard players set blue health 40
+scoreboard players set red max_health 40
+scoreboard players set blue max_health 40
 
 scoreboard objectives add temp dummy
 
