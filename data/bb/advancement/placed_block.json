@@ -5,5 +5,5 @@
     }
   },
   "requirements": [["placed_any"]],
-  "rewards": { "function": "bb:match/turns/change_turn" }
+  "rewards": { "function": "bb:match/defense/defense" }
 }
