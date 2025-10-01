@@ -2,10 +2,7 @@ scoreboard objectives add damage dummy
 scoreboard objectives add defense dummy
 scoreboard objectives add healing dummy
 
-function bb:blocks/reset_block_count
-
-function bb:blocks/set_block_stats
-function bb:blocks/block_place_tracker_setup
+kill @e[type=!player]
 
 team add red "Red"
 team add blue "Blue"
@@ -17,22 +14,25 @@ scoreboard players set global current_turn 0
 scoreboard objectives add health dummy "Health"
 scoreboard objectives add max_health dummy
 scoreboard objectives add shield dummy "Shield"
-scoreboard players set red health 40
-scoreboard players set blue health 40
-scoreboard players set red max_health 40
-scoreboard players set blue max_health 40
+scoreboard players set red health 60
+scoreboard players set blue health 60
+scoreboard players set red max_health 60
+scoreboard players set blue max_health 60
+scoreboard players set red shield 0
+scoreboard players set blue shield 0
 
 scoreboard objectives add damage_to_deal dummy
-scoreboard players set temp damage_to_deal 0
 scoreboard objectives add defense_to_add dummy
-scoreboard players set temp defense_to_add 0
-scoreboard objectives add health_to_add dummy
-scoreboard players set temp health_to_add 0
+scoreboard objectives add healing_to_heal dummy
 
-scoreboard objectives add old_defense dummy
+scoreboard objectives add red_count dummy
+scoreboard objectives add blue_count dummy
+scoreboard objectives add red_unused_count dummy
+scoreboard objectives add blue_unused_count dummy
 
 scoreboard objectives add temp dummy
 
-function bb:blocks/activate_blocks
+summon armor_stand 5 324 5 {Invisible:1b,Marker:1b,NoBasePlate:1b,Small:1b,DisabledSlots:0,Tags:["board_master","dont_remove"]}
 
-# Tor pull request test
+function bb:blocks/set_block_stats
+function bb:blocks/set_place_scoreboards

@@ -4,6 +4,5 @@
       "trigger": "minecraft:placed_block"
     }
   },
-  "requirements": [["placed_any"]],
-  "rewards": { "function": "bb:match/defense/defense" }
+  "rewards": { "function": "bb:blocks/find_blocks_raycast" }
 }

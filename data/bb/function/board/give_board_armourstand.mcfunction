@@ -1,1 +1,0 @@
-give @s sheep_spawn_egg[custom_name='[{"text":"Board Armourstand","italic":false}]',entity_data={id:armor_stand,ShowArms:1b,Invisible:1b,Marker:1b,Small:1b,Tags:[board,dont_delete]}] 1
