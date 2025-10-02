@@ -1,0 +1,1 @@
+function bb:blocks/count_all

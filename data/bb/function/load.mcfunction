@@ -22,8 +22,10 @@ scoreboard players set red shield 0
 scoreboard players set blue shield 0
 
 scoreboard objectives add damage_to_deal dummy
-scoreboard objectives add defense_to_add dummy
+scoreboard objectives add shield_to_add dummy
 scoreboard objectives add healing_to_heal dummy
+
+scoreboard objectives add old_shield dummy
 
 scoreboard objectives add red_count dummy
 scoreboard objectives add blue_count dummy
@@ -31,6 +33,8 @@ scoreboard objectives add red_unused_count dummy
 scoreboard objectives add blue_unused_count dummy
 
 scoreboard objectives add temp dummy
+scoreboard objectives add zero dummy
+scoreboard players set global zero 0
 
 summon armor_stand 5 324 5 {Invisible:1b,Marker:1b,NoBasePlate:1b,Small:1b,DisabledSlots:0,Tags:["board_master","dont_remove"]}
 
