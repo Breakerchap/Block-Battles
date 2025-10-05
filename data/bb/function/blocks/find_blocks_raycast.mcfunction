@@ -1,4 +1,4 @@
-advancement revoke @s only bb:placed_block
+advancement revoke @a only bb:placed_block
 
 summon armor_stand ^ ^1 ^1 {Invisible:1b,Marker:1b,NoBasePlate:1b,Small:1b,DisabledSlots:0,Invulnerable:1b,Tags:["raycast","old_raycast"]}
 

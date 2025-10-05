@@ -1,5 +1,8 @@
 # Damage
 scoreboard players operation blue old_shield = blue shield
+scoreboard players operation blue old_health = blue health
+
+scoreboard players operation blue health -= red true_damage_to_deal
 scoreboard players operation blue shield -= red damage_to_deal
 
 execute if score blue shield < global zero run scoreboard players set blue shield 0
@@ -20,5 +23,7 @@ scoreboard players operation red health += red healing_to_heal
 scoreboard players set red damage_to_deal 0
 scoreboard players set red shield_to_add 0
 scoreboard players set red healing_to_heal 0
+
+function bb:abilities/blue_cactus
 
 tag @e[type=armor_stand,tag=unused] remove unused

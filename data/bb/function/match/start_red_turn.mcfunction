@@ -32,7 +32,7 @@ scoreboard players operation red healing_to_heal += temp temp
 
 scoreboard players operation temp temp = soul_campfire red_count
 scoreboard players operation temp temp *= soul_campfire damage
-scoreboard players operation red damage_to_deal += temp temp
+scoreboard players operation red true_damage_to_deal += temp temp
 scoreboard players operation temp temp = soul_campfire red_count
 scoreboard players operation temp temp *= soul_campfire defense
 scoreboard players operation red shield_to_add += temp temp
@@ -180,6 +180,16 @@ scoreboard players operation temp temp = cake red_count
 scoreboard players operation temp temp *= cake healing
 scoreboard players operation red healing_to_heal += temp temp
 
+scoreboard players operation temp temp = magma red_count
+scoreboard players operation temp temp *= magma damage
+scoreboard players operation red damage_to_deal += temp temp
+scoreboard players operation temp temp = magma red_count
+scoreboard players operation temp temp *= magma defense
+scoreboard players operation red shield_to_add += temp temp
+scoreboard players operation temp temp = magma red_count
+scoreboard players operation temp temp *= magma healing
+scoreboard players operation red healing_to_heal += temp temp
+
 scoreboard players operation temp temp = dispenser red_count
 scoreboard players operation temp temp *= dispenser damage
 scoreboard players operation red damage_to_deal += temp temp
@@ -188,16 +198,6 @@ scoreboard players operation temp temp *= dispenser defense
 scoreboard players operation red shield_to_add += temp temp
 scoreboard players operation temp temp = dispenser red_count
 scoreboard players operation temp temp *= dispenser healing
-scoreboard players operation red healing_to_heal += temp temp
-
-scoreboard players operation temp temp = brewing_stand red_count
-scoreboard players operation temp temp *= brewing_stand damage
-scoreboard players operation red damage_to_deal += temp temp
-scoreboard players operation temp temp = brewing_stand red_count
-scoreboard players operation temp temp *= brewing_stand defense
-scoreboard players operation red shield_to_add += temp temp
-scoreboard players operation temp temp = brewing_stand red_count
-scoreboard players operation temp temp *= brewing_stand healing
 scoreboard players operation red healing_to_heal += temp temp
 
 scoreboard players operation temp temp = cauldron red_count
@@ -210,16 +210,6 @@ scoreboard players operation temp temp = cauldron red_count
 scoreboard players operation temp temp *= cauldron healing
 scoreboard players operation red healing_to_heal += temp temp
 
-scoreboard players operation temp temp = composter red_count
-scoreboard players operation temp temp *= composter damage
-scoreboard players operation red damage_to_deal += temp temp
-scoreboard players operation temp temp = composter red_count
-scoreboard players operation temp temp *= composter defense
-scoreboard players operation red shield_to_add += temp temp
-scoreboard players operation temp temp = composter red_count
-scoreboard players operation temp temp *= composter healing
-scoreboard players operation red healing_to_heal += temp temp
-
 scoreboard players operation temp temp = snow red_count
 scoreboard players operation temp temp *= snow damage
 scoreboard players operation red damage_to_deal += temp temp
@@ -228,26 +218,6 @@ scoreboard players operation temp temp *= snow defense
 scoreboard players operation red shield_to_add += temp temp
 scoreboard players operation temp temp = snow red_count
 scoreboard players operation temp temp *= snow healing
-scoreboard players operation red healing_to_heal += temp temp
-
-scoreboard players operation temp temp = tinted_glass red_count
-scoreboard players operation temp temp *= tinted_glass damage
-scoreboard players operation red damage_to_deal += temp temp
-scoreboard players operation temp temp = tinted_glass red_count
-scoreboard players operation temp temp *= tinted_glass defense
-scoreboard players operation red shield_to_add += temp temp
-scoreboard players operation temp temp = tinted_glass red_count
-scoreboard players operation temp temp *= tinted_glass healing
-scoreboard players operation red healing_to_heal += temp temp
-
-scoreboard players operation temp temp = vault red_count
-scoreboard players operation temp temp *= vault damage
-scoreboard players operation red damage_to_deal += temp temp
-scoreboard players operation temp temp = vault red_count
-scoreboard players operation temp temp *= vault defense
-scoreboard players operation red shield_to_add += temp temp
-scoreboard players operation temp temp = vault red_count
-scoreboard players operation temp temp *= vault healing
 scoreboard players operation red healing_to_heal += temp temp
 
 scoreboard players operation temp temp = mushroom_stem red_count
@@ -280,46 +250,6 @@ scoreboard players operation temp temp = mycelium red_count
 scoreboard players operation temp temp *= mycelium healing
 scoreboard players operation red healing_to_heal += temp temp
 
-scoreboard players operation temp temp = torch red_count
-scoreboard players operation temp temp *= torch damage
-scoreboard players operation red damage_to_deal += temp temp
-scoreboard players operation temp temp = torch red_count
-scoreboard players operation temp temp *= torch defense
-scoreboard players operation red shield_to_add += temp temp
-scoreboard players operation temp temp = torch red_count
-scoreboard players operation temp temp *= torch healing
-scoreboard players operation red healing_to_heal += temp temp
-
-scoreboard players operation temp temp = sculk_catalyst red_count
-scoreboard players operation temp temp *= sculk_catalyst damage
-scoreboard players operation red damage_to_deal += temp temp
-scoreboard players operation temp temp = sculk_catalyst red_count
-scoreboard players operation temp temp *= sculk_catalyst defense
-scoreboard players operation red shield_to_add += temp temp
-scoreboard players operation temp temp = sculk_catalyst red_count
-scoreboard players operation temp temp *= sculk_catalyst healing
-scoreboard players operation red healing_to_heal += temp temp
-
-scoreboard players operation temp temp = sculk red_count
-scoreboard players operation temp temp *= sculk damage
-scoreboard players operation red damage_to_deal += temp temp
-scoreboard players operation temp temp = sculk red_count
-scoreboard players operation temp temp *= sculk defense
-scoreboard players operation red shield_to_add += temp temp
-scoreboard players operation temp temp = sculk red_count
-scoreboard players operation temp temp *= sculk healing
-scoreboard players operation red healing_to_heal += temp temp
-
-scoreboard players operation temp temp = glass_pane red_count
-scoreboard players operation temp temp *= glass_pane damage
-scoreboard players operation red damage_to_deal += temp temp
-scoreboard players operation temp temp = glass_pane red_count
-scoreboard players operation temp temp *= glass_pane defense
-scoreboard players operation red shield_to_add += temp temp
-scoreboard players operation temp temp = glass_pane red_count
-scoreboard players operation temp temp *= glass_pane healing
-scoreboard players operation red healing_to_heal += temp temp
-
 scoreboard players operation temp temp = cherry_log red_count
 scoreboard players operation temp temp *= cherry_log damage
 scoreboard players operation red damage_to_deal += temp temp
@@ -330,22 +260,12 @@ scoreboard players operation temp temp = cherry_log red_count
 scoreboard players operation temp temp *= cherry_log healing
 scoreboard players operation red healing_to_heal += temp temp
 
-scoreboard players operation temp temp = cherry_leaves red_count
-scoreboard players operation temp temp *= cherry_leaves damage
-scoreboard players operation red damage_to_deal += temp temp
-scoreboard players operation temp temp = cherry_leaves red_count
-scoreboard players operation temp temp *= cherry_leaves defense
-scoreboard players operation red shield_to_add += temp temp
-scoreboard players operation temp temp = cherry_leaves red_count
-scoreboard players operation temp temp *= cherry_leaves healing
-scoreboard players operation red healing_to_heal += temp temp
+#! abilities
+execute as @e[type=armor_stand,tag=jungle_log,tag=red] at @s if block ~ ~1 ~ air run setblock ~ ~1 ~ jungle_log
+execute as @e[type=armor_stand,tag=jungle_log,tag=red] at @s if block ~ ~1 ~ air run summon armor_stand ~ ~1 ~ {Invisible:1b,Marker:1b,NoBasePlate:1b,Small:1b,DisabledSlots:0,Invulnerable:1b,Tags:["block_marker","jungle_log","red","per_turn"]}
 
-scoreboard players operation temp temp = pink_petals red_count
-scoreboard players operation temp temp *= pink_petals damage
-scoreboard players operation red damage_to_deal += temp temp
-scoreboard players operation temp temp = pink_petals red_count
-scoreboard players operation temp temp *= pink_petals defense
-scoreboard players operation red shield_to_add += temp temp
-scoreboard players operation temp temp = pink_petals red_count
-scoreboard players operation temp temp *= pink_petals healing
-scoreboard players operation red healing_to_heal += temp temp
+execute as @e[type=armor_stand,tag=cherry_log,tag=red] at @s if block ~ ~1 ~ air run setblock ~ ~1 ~ cherry_log
+execute as @e[type=armor_stand,tag=cherry_log,tag=red] at @s if block ~ ~1 ~ air run summon armor_stand ~ ~1 ~ {Invisible:1b,Marker:1b,NoBasePlate:1b,Small:1b,DisabledSlots:0,Invulnerable:1b,Tags:["block_marker","cherry_log","red","per_turn"]}
+
+execute as @e[type=armor_stand,tag=mushroom_stem,tag=red] at @s if block ~ ~1 ~ air run setblock ~ ~1 ~ mushroom_stem
+execute as @e[type=armor_stand,tag=mushroom_stem,tag=red] at @s if block ~ ~1 ~ air run summon armor_stand ~ ~1 ~ {Invisible:1b,Marker:1b,NoBasePlate:1b,Small:1b,DisabledSlots:0,Invulnerable:1b,Tags:["block_marker","mushroom_stem","red","per_turn"]}

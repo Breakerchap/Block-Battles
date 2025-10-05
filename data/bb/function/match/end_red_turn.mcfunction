@@ -132,7 +132,7 @@ scoreboard players operation red healing_to_heal += temp temp
 
 scoreboard players operation temp temp = soul_campfire red_count
 scoreboard players operation temp temp *= soul_campfire damage
-scoreboard players operation red damage_to_deal += temp temp
+scoreboard players operation red true_damage_to_deal += temp temp
 scoreboard players operation temp temp = soul_campfire red_count
 scoreboard players operation temp temp *= soul_campfire defense
 scoreboard players operation red shield_to_add += temp temp

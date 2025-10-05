@@ -1,0 +1,112 @@
+# Abilities
+- [/] Slime Block
+- [ ] Lava
+- [x] TNT
+- [ ] Obsidian
+- [ ] End Crystal
+- [/] Deepslate
+- [/] Grass
+- [ ] Soul Sand
+- [x] Cactus
+- [/] Horn Coral Block
+- [/] Tube Coral Block
+- [/] Bubble Coral Block
+- [x] Soul Campfire
+- [/] Horn Coral Fan
+- [/] Tube Coral Fan
+- [/] Bubble Coral Fan
+- [ ] Prismarine
+- [ ] Conduit
+- [ ] Red Bed
+- [ ] Glass
+- [ ] Red Tulip
+- [ ] Water
+- [ ] Sand
+- [ ] Cocoa Beans
+- [ ] Red Carpet
+- [ ] Blue Carpet
+- [ ] Green Carpet
+- [ ] Player Head
+- [ ] Dragon Head
+- [ ] Zombie Head
+- [ ] Creeper Head
+- [ ] Piglin Head
+- [ ] Skeleton Skull
+- [ ] Wither Skeleton Skull
+- [ ] Reinforced Deepslate
+- [ ] Deepslate Bricks
+- [ ] Deepslate Tiles
+- [ ] Deepslate Redstone Ore
+- [ ] Deepslate Gold Ore
+- [ ] Jungle Log
+- [ ] Respawn Anchor
+- [ ] Glowstone
+- [ ] Carved Pumpkin
+- [ ] Bedrock
+- [ ] Endstone
+- [ ] Shulker Box
+- [ ] Dragon Egg
+- [ ] Block of Iron
+- [ ] Block of Emerald
+- [ ] Block of Diamond
+- [ ] Block of Gold
+- [ ] Block of Redstone
+- [ ] Block of Netherite
+- [ ] Block of Coal
+- [ ] Block of Lapis Lazuli
+- [ ] Lightning Rod
+- [ ] Moss Block
+- [ ] Dead Bush
+- [ ] Anvil
+- [ ] Damaged Anvil
+- [ ] Repeater
+- [ ] Daylight Sensor
+- [ ] Powdered Snow
+- [ ] Beacon
+- [ ] Redstone Torch
+- [ ] Nether Bricks
+- [ ] Monster Spawner
+- [ ] Cake
+- [ ] Polished Blackstone Bricks
+- [ ] Candle
+- [ ] Soul Lantern
+- [ ] Soul Torch
+- [ ] Pointed Dripstone
+- [ ] Furnace
+- [ ] Campfire
+- [ ] Enchanting Table
+- [ ] Crying Obsidian
+- [ ] Magma Block
+- [ ] Sculk Sensor
+- [ ] Calibrated Sculk Sensor
+- [ ] Sculk Shrieker
+- [ ] Stonecutter
+- [ ] Wither Rose
+- [ ] Torchflower
+- [ ] Bookshelf
+- [ ] Chiseled Bookshelf
+- [ ] Chest
+- [ ] Nether Quartz Ore
+- [ ] Nether Gold Ore
+- [ ] Ancient Debris
+- [ ] Lectern
+- [ ] Netherrack
+- [ ] Smithing Table
+- [ ] Oak Planks x4
+- [ ] Dispenser
+- [ ] Brewing Stand
+- [ ] Cauldron
+- [ ] Composter
+- [ ] Snow
+- [ ] Tinted Glass
+- [ ] Vault
+- [ ] Mushroom Stem
+- [ ] Torch
+- [ ] Sculk Catalyst
+- [ ] Sculk
+- [ ] Glass Pane
+- [ ] Cherry Log
+- [ ] Cherry Leaves
+- [ ] Pink Petals
+- [ ] Crimson Hyphae
+- [ ] Warped Hyphae
