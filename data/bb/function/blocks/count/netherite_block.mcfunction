@@ -1,4 +1,4 @@
-scoreboard players set netherite_block red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score netherite_block red_count run execute as @e[type=armor_stand,tag=netherite_block,tag=red,distance=..9] run return 1
-scoreboard players set netherite_block blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score netherite_block blue_count run execute as @e[type=armor_stand,tag=netherite_block,tag=blue,distance=..9] run return 1
+# Count placement/use: netherite_block
+execute if entity @s[team=red] run scoreboard players add red netherite_block_count 1
+execute if entity @s[team=blue] run scoreboard players add blue netherite_block_count 1
+advancement revoke @s only bb:blocks/netherite_block

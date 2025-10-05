@@ -1,4 +1,4 @@
-scoreboard players set campfire red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score campfire red_count run execute as @e[type=armor_stand,tag=campfire,tag=red,distance=..9] run return 1
-scoreboard players set campfire blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score campfire blue_count run execute as @e[type=armor_stand,tag=campfire,tag=blue,distance=..9] run return 1
+# Count placement/use: campfire
+execute if entity @s[team=red] run scoreboard players add red campfire_count 1
+execute if entity @s[team=blue] run scoreboard players add blue campfire_count 1
+advancement revoke @s only bb:blocks/campfire

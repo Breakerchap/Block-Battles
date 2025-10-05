@@ -1,4 +1,4 @@
-scoreboard players set dragon_egg red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score dragon_egg red_count run execute as @e[type=armor_stand,tag=dragon_egg,tag=red,distance=..9] run return 1
-scoreboard players set dragon_egg blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score dragon_egg blue_count run execute as @e[type=armor_stand,tag=dragon_egg,tag=blue,distance=..9] run return 1
+# Count placement/use: dragon_egg
+execute if entity @s[team=red] run scoreboard players add red dragon_egg_count 1
+execute if entity @s[team=blue] run scoreboard players add blue dragon_egg_count 1
+advancement revoke @s only bb:blocks/dragon_egg

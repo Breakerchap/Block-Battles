@@ -1,4 +1,4 @@
-scoreboard players set torch red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score torch red_count run execute as @e[type=armor_stand,tag=torch,tag=red,distance=..9] run return 1
-scoreboard players set torch blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score torch blue_count run execute as @e[type=armor_stand,tag=torch,tag=blue,distance=..9] run return 1
+# Count placement/use: torch
+execute if entity @s[team=red] run scoreboard players add red torch_count 1
+execute if entity @s[team=blue] run scoreboard players add blue torch_count 1
+advancement revoke @s only bb:blocks/torch

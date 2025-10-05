@@ -1,4 +1,4 @@
-scoreboard players set cherry_log red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score cherry_log red_count run execute as @e[type=armor_stand,tag=cherry_log,tag=red,distance=..9] run return 1
-scoreboard players set cherry_log blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score cherry_log blue_count run execute as @e[type=armor_stand,tag=cherry_log,tag=blue,distance=..9] run return 1
+# Count placement/use: cherry_log
+execute if entity @s[team=red] run scoreboard players add red cherry_log_count 1
+execute if entity @s[team=blue] run scoreboard players add blue cherry_log_count 1
+advancement revoke @s only bb:blocks/cherry_log

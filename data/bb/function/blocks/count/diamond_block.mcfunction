@@ -1,4 +1,4 @@
-scoreboard players set diamond_block red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score diamond_block red_count run execute as @e[type=armor_stand,tag=diamond_block,tag=red,distance=..9] run return 1
-scoreboard players set diamond_block blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score diamond_block blue_count run execute as @e[type=armor_stand,tag=diamond_block,tag=blue,distance=..9] run return 1
+# Count placement/use: diamond_block
+execute if entity @s[team=red] run scoreboard players add red diamond_block_count 1
+execute if entity @s[team=blue] run scoreboard players add blue diamond_block_count 1
+advancement revoke @s only bb:blocks/diamond_block

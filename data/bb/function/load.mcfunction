@@ -1,3 +1,5 @@
+say loaded
+
 scoreboard objectives add damage dummy
 scoreboard objectives add defense dummy
 scoreboard objectives add healing dummy
@@ -35,12 +37,12 @@ scoreboard objectives add red_unused_count dummy
 scoreboard objectives add blue_unused_count dummy
 
 scoreboard objectives add temp dummy
+scoreboard objectives add iris_tmp dummy
 scoreboard objectives add zero dummy
 scoreboard objectives add cactus_reflection_amount dummy
 scoreboard players set global zero 0
 scoreboard players set global cactus_reflection_amount 2
 
-summon armor_stand 5 324 5 {Invisible:1b,Marker:1b,NoBasePlate:1b,Small:1b,DisabledSlots:0,Tags:["board_master","dont_remove"]}
-
-function bb:blocks/set_block_stats
-function bb:blocks/set_place_scoreboards
+function iris:setup/load
+function bb:blocks/setup_place_scoreboards
+function bb:reset_scoreboards

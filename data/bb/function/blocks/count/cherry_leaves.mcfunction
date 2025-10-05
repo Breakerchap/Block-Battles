@@ -1,4 +1,4 @@
-scoreboard players set cherry_leaves red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score cherry_leaves red_count run execute as @e[type=armor_stand,tag=cherry_leaves,tag=red,distance=..9] run return 1
-scoreboard players set cherry_leaves blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score cherry_leaves blue_count run execute as @e[type=armor_stand,tag=cherry_leaves,tag=blue,distance=..9] run return 1
+# Count placement/use: cherry_leaves
+execute if entity @s[team=red] run scoreboard players add red cherry_leaves_count 1
+execute if entity @s[team=blue] run scoreboard players add blue cherry_leaves_count 1
+advancement revoke @s only bb:blocks/cherry_leaves

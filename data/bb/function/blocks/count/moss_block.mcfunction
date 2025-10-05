@@ -1,4 +1,4 @@
-scoreboard players set moss_block red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score moss_block red_count run execute as @e[type=armor_stand,tag=moss_block,tag=red,distance=..9] run return 1
-scoreboard players set moss_block blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score moss_block blue_count run execute as @e[type=armor_stand,tag=moss_block,tag=blue,distance=..9] run return 1
+# Count placement/use: moss_block
+execute if entity @s[team=red] run scoreboard players add red moss_block_count 1
+execute if entity @s[team=blue] run scoreboard players add blue moss_block_count 1
+advancement revoke @s only bb:blocks/moss_block

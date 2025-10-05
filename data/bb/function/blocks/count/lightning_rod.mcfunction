@@ -1,4 +1,4 @@
-scoreboard players set lightning_rod red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score lightning_rod red_count run execute as @e[type=armor_stand,tag=lightning_rod,tag=red,distance=..9] run return 1
-scoreboard players set lightning_rod blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score lightning_rod blue_count run execute as @e[type=armor_stand,tag=lightning_rod,tag=blue,distance=..9] run return 1
+# Count placement/use: lightning_rod
+execute if entity @s[team=red] run scoreboard players add red lightning_rod_count 1
+execute if entity @s[team=blue] run scoreboard players add blue lightning_rod_count 1
+advancement revoke @s only bb:blocks/lightning_rod

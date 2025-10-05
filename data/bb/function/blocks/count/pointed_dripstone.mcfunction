@@ -1,4 +1,4 @@
-scoreboard players set pointed_dripstone red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score pointed_dripstone red_count run execute as @e[type=armor_stand,tag=pointed_dripstone,tag=red,distance=..9] run return 1
-scoreboard players set pointed_dripstone blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score pointed_dripstone blue_count run execute as @e[type=armor_stand,tag=pointed_dripstone,tag=blue,distance=..9] run return 1
+# Count placement/use: pointed_dripstone
+execute if entity @s[team=red] run scoreboard players add red pointed_dripstone_count 1
+execute if entity @s[team=blue] run scoreboard players add blue pointed_dripstone_count 1
+advancement revoke @s only bb:blocks/pointed_dripstone

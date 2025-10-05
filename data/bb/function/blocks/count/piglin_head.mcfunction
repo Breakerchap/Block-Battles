@@ -1,4 +1,4 @@
-scoreboard players set piglin_head red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score piglin_head red_count run execute as @e[type=armor_stand,tag=piglin_head,tag=red,distance=..9] run return 1
-scoreboard players set piglin_head blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score piglin_head blue_count run execute as @e[type=armor_stand,tag=piglin_head,tag=blue,distance=..9] run return 1
+# Count placement/use: piglin_head
+execute if entity @s[team=red] run scoreboard players add red piglin_head_count 1
+execute if entity @s[team=blue] run scoreboard players add blue piglin_head_count 1
+advancement revoke @s only bb:blocks/piglin_head

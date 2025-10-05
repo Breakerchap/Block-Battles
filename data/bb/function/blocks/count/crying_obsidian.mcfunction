@@ -1,4 +1,4 @@
-scoreboard players set crying_obsidian red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score crying_obsidian red_count run execute as @e[type=armor_stand,tag=crying_obsidian,tag=red,distance=..9] run return 1
-scoreboard players set crying_obsidian blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score crying_obsidian blue_count run execute as @e[type=armor_stand,tag=crying_obsidian,tag=blue,distance=..9] run return 1
+# Count placement/use: crying_obsidian
+execute if entity @s[team=red] run scoreboard players add red crying_obsidian_count 1
+execute if entity @s[team=blue] run scoreboard players add blue crying_obsidian_count 1
+advancement revoke @s only bb:blocks/crying_obsidian

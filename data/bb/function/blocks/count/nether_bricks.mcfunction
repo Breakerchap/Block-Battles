@@ -1,4 +1,4 @@
-scoreboard players set nether_bricks red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score nether_bricks red_count run execute as @e[type=armor_stand,tag=nether_bricks,tag=red,distance=..9] run return 1
-scoreboard players set nether_bricks blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score nether_bricks blue_count run execute as @e[type=armor_stand,tag=nether_bricks,tag=blue,distance=..9] run return 1
+# Count placement/use: nether_bricks
+execute if entity @s[team=red] run scoreboard players add red nether_bricks_count 1
+execute if entity @s[team=blue] run scoreboard players add blue nether_bricks_count 1
+advancement revoke @s only bb:blocks/nether_bricks

@@ -1,4 +1,4 @@
-scoreboard players set ancient_debris red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score ancient_debris red_count run execute as @e[type=armor_stand,tag=ancient_debris,tag=red,distance=..9] run return 1
-scoreboard players set ancient_debris blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score ancient_debris blue_count run execute as @e[type=armor_stand,tag=ancient_debris,tag=blue,distance=..9] run return 1
+# Count placement/use: ancient_debris
+execute if entity @s[team=red] run scoreboard players add red ancient_debris_count 1
+execute if entity @s[team=blue] run scoreboard players add blue ancient_debris_count 1
+advancement revoke @s only bb:blocks/ancient_debris

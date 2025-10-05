@@ -1,4 +1,4 @@
-scoreboard players set cactus red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score cactus red_count run execute as @e[type=armor_stand,tag=cactus,tag=red,distance=..9] run return 1
-scoreboard players set cactus blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score cactus blue_count run execute as @e[type=armor_stand,tag=cactus,tag=blue,distance=..9] run return 1
+# Count placement/use: cactus
+execute if entity @s[team=red] run scoreboard players add red cactus_count 1
+execute if entity @s[team=blue] run scoreboard players add blue cactus_count 1
+advancement revoke @s only bb:blocks/cactus

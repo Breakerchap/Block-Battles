@@ -1,4 +1,4 @@
-scoreboard players set bedrock red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score bedrock red_count run execute as @e[type=armor_stand,tag=bedrock,tag=red,distance=..9] run return 1
-scoreboard players set bedrock blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score bedrock blue_count run execute as @e[type=armor_stand,tag=bedrock,tag=blue,distance=..9] run return 1
+# Count placement/use: bedrock
+execute if entity @s[team=red] run scoreboard players add red bedrock_count 1
+execute if entity @s[team=blue] run scoreboard players add blue bedrock_count 1
+advancement revoke @s only bb:blocks/bedrock

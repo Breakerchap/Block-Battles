@@ -1,4 +1,4 @@
-scoreboard players set respawn_anchor red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score respawn_anchor red_count run execute as @e[type=armor_stand,tag=respawn_anchor,tag=red,distance=..9] run return 1
-scoreboard players set respawn_anchor blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score respawn_anchor blue_count run execute as @e[type=armor_stand,tag=respawn_anchor,tag=blue,distance=..9] run return 1
+# Count placement/use: respawn_anchor
+execute if entity @s[team=red] run scoreboard players add red respawn_anchor_count 1
+execute if entity @s[team=blue] run scoreboard players add blue respawn_anchor_count 1
+advancement revoke @s only bb:blocks/respawn_anchor

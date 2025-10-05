@@ -1,4 +1,4 @@
-scoreboard players set obsidian red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score obsidian red_count run execute as @e[type=armor_stand,tag=obsidian,tag=red,distance=..9] run return 1
-scoreboard players set obsidian blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score obsidian blue_count run execute as @e[type=armor_stand,tag=obsidian,tag=blue,distance=..9] run return 1
+# Count placement/use: obsidian
+execute if entity @s[team=red] run scoreboard players add red obsidian_count 1
+execute if entity @s[team=blue] run scoreboard players add blue obsidian_count 1
+advancement revoke @s only bb:blocks/obsidian

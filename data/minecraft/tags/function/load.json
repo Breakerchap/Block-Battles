@@ -1,5 +1,7 @@
 {
-    "values": [
-      "bb:load"
-    ]
-  }
+  "replace": false,
+  "values": [
+    "bb:load",
+    "iris:setup/load"
+  ]
+}

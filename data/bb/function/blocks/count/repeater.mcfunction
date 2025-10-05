@@ -1,4 +1,4 @@
-scoreboard players set repeater red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score repeater red_count run execute as @e[type=armor_stand,tag=repeater,tag=red,distance=..9] run return 1
-scoreboard players set repeater blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score repeater blue_count run execute as @e[type=armor_stand,tag=repeater,tag=blue,distance=..9] run return 1
+# Count placement/use: repeater
+execute if entity @s[team=red] run scoreboard players add red repeater_count 1
+execute if entity @s[team=blue] run scoreboard players add blue repeater_count 1
+advancement revoke @s only bb:blocks/repeater

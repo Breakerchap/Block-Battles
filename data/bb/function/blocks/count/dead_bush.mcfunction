@@ -1,4 +1,4 @@
-scoreboard players set dead_bush red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score dead_bush red_count run execute as @e[type=armor_stand,tag=dead_bush,tag=red,distance=..9] run return 1
-scoreboard players set dead_bush blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score dead_bush blue_count run execute as @e[type=armor_stand,tag=dead_bush,tag=blue,distance=..9] run return 1
+# Count placement/use: dead_bush
+execute if entity @s[team=red] run scoreboard players add red dead_bush_count 1
+execute if entity @s[team=blue] run scoreboard players add blue dead_bush_count 1
+advancement revoke @s only bb:blocks/dead_bush

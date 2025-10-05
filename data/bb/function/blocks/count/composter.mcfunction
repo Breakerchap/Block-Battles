@@ -1,4 +1,4 @@
-scoreboard players set composter red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score composter red_count run execute as @e[type=armor_stand,tag=composter,tag=red,distance=..9] run return 1
-scoreboard players set composter blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score composter blue_count run execute as @e[type=armor_stand,tag=composter,tag=blue,distance=..9] run return 1
+# Count placement/use: composter
+execute if entity @s[team=red] run scoreboard players add red composter_count 1
+execute if entity @s[team=blue] run scoreboard players add blue composter_count 1
+advancement revoke @s only bb:blocks/composter

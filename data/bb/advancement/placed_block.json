@@ -4,5 +4,5 @@
       "trigger": "minecraft:placed_block"
     }
   },
-  "rewards": { "function": "bb:blocks/find_blocks_raycast" }
+  "rewards": { "function": "bb:blocks/on_place" }
 }

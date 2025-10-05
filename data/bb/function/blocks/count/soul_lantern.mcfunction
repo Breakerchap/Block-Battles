@@ -1,4 +1,4 @@
-scoreboard players set soul_lantern red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score soul_lantern red_count run execute as @e[type=armor_stand,tag=soul_lantern,tag=red,distance=..9] run return 1
-scoreboard players set soul_lantern blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score soul_lantern blue_count run execute as @e[type=armor_stand,tag=soul_lantern,tag=blue,distance=..9] run return 1
+# Count placement/use: soul_lantern
+execute if entity @s[team=red] run scoreboard players add red soul_lantern_count 1
+execute if entity @s[team=blue] run scoreboard players add blue soul_lantern_count 1
+advancement revoke @s only bb:blocks/soul_lantern

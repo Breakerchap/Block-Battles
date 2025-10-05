@@ -1,4 +1,4 @@
-scoreboard players set blue_carpet red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score blue_carpet red_count run execute as @e[type=armor_stand,tag=blue_carpet,tag=red,distance=..9] run return 1
-scoreboard players set blue_carpet blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score blue_carpet blue_count run execute as @e[type=armor_stand,tag=blue_carpet,tag=blue,distance=..9] run return 1
+# Count placement/use: blue_carpet
+execute if entity @s[team=red] run scoreboard players add red blue_carpet_count 1
+execute if entity @s[team=blue] run scoreboard players add blue blue_carpet_count 1
+advancement revoke @s only bb:blocks/blue_carpet

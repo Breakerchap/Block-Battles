@@ -1,4 +1,4 @@
-scoreboard players set bubble_coral_fan red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score bubble_coral_fan red_count run execute as @e[type=armor_stand,tag=bubble_coral_fan,tag=red,distance=..9] run return 1
-scoreboard players set bubble_coral_fan blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score bubble_coral_fan blue_count run execute as @e[type=armor_stand,tag=bubble_coral_fan,tag=blue,distance=..9] run return 1
+# Count placement/use: bubble_coral_fan
+execute if entity @s[team=red] run scoreboard players add red bubble_coral_fan_count 1
+execute if entity @s[team=blue] run scoreboard players add blue bubble_coral_fan_count 1
+advancement revoke @s only bb:blocks/bubble_coral_fan

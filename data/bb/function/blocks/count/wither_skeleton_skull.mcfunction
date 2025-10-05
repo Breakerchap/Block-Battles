@@ -1,4 +1,4 @@
-scoreboard players set wither_skeleton_skull red_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score wither_skeleton_skull red_count run execute as @e[type=armor_stand,tag=wither_skeleton_skull,tag=red,distance=..9] run return 1
-scoreboard players set wither_skeleton_skull blue_count 0
-execute as @e[type=armor_stand,tag=board_master] at @s store result score wither_skeleton_skull blue_count run execute as @e[type=armor_stand,tag=wither_skeleton_skull,tag=blue,distance=..9] run return 1
+# Count placement/use: wither_skeleton_skull
+execute if entity @s[team=red] run scoreboard players add red wither_skeleton_skull_count 1
+execute if entity @s[team=blue] run scoreboard players add blue wither_skeleton_skull_count 1
+advancement revoke @s only bb:blocks/wither_skeleton_skull
