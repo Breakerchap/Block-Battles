@@ -36,6 +36,9 @@ scoreboard objectives add blue_count dummy
 scoreboard objectives add red_unused_count dummy
 scoreboard objectives add blue_unused_count dummy
 
+scoreboard objectives add most_recent_block dummy
+scoreboard players set global most_recent_block -1
+
 scoreboard objectives add temp dummy
 scoreboard objectives add iris_tmp dummy
 scoreboard objectives add zero dummy

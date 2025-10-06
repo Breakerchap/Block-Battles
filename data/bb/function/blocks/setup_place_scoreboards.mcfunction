@@ -59,7 +59,7 @@ scoreboard objectives add dead_bush_count dummy
 scoreboard objectives add anvil_count dummy
 scoreboard objectives add chipped_anvil_count dummy
 scoreboard objectives add repeater_count dummy
-scoreboard objectives add daylight_sensor_count dummy
+scoreboard objectives add daylight_detector_count dummy
 scoreboard objectives add powder_snow_count dummy
 scoreboard objectives add beacon_count dummy
 scoreboard objectives add redstone_torch_count dummy
