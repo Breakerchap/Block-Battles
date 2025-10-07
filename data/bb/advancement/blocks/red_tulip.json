@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/red_tulip"
+    "function": "bb:blocks/placed/red_tulip"
   }
 }

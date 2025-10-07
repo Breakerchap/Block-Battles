@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/sculk_shrieker"
+    "function": "bb:blocks/placed/sculk_shrieker"
   }
 }

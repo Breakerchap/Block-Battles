@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/cake"
+    "function": "bb:blocks/placed/cake"
   }
 }

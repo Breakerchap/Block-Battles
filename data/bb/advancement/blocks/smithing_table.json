@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/smithing_table"
+    "function": "bb:blocks/placed/smithing_table"
   }
 }

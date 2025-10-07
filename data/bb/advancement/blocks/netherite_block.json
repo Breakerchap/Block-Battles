@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/netherite_block"
+    "function": "bb:blocks/placed/netherite_block"
   }
 }

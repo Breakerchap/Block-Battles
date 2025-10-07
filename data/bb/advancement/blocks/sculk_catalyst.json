@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/sculk_catalyst"
+    "function": "bb:blocks/placed/sculk_catalyst"
   }
 }

@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/coal_block"
+    "function": "bb:blocks/placed/coal_block"
   }
 }

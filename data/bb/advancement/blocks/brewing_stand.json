@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/brewing_stand"
+    "function": "bb:blocks/placed/brewing_stand"
   }
 }

@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/pointed_dripstone"
+    "function": "bb:blocks/placed/pointed_dripstone"
   }
 }

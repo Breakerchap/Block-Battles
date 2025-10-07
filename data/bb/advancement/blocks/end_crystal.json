@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/end_crystal"
+    "function": "bb:blocks/placed/end_crystal"
   }
 }

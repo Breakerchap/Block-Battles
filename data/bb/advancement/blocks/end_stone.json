@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/end_stone"
+    "function": "bb:blocks/placed/end_stone"
   }
 }

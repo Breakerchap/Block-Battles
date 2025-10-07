@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/zombie_head"
+    "function": "bb:blocks/placed/zombie_head"
   }
 }

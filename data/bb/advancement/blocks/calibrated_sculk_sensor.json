@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/calibrated_sculk_sensor"
+    "function": "bb:blocks/placed/calibrated_sculk_sensor"
   }
 }

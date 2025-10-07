@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/lava"
+    "function": "bb:blocks/placed/lava"
   }
 }

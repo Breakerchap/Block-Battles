@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/respawn_anchor"
+    "function": "bb:blocks/placed/respawn_anchor"
   }
 }

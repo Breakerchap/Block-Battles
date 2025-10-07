@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/deepslate_bricks"
+    "function": "bb:blocks/placed/deepslate_bricks"
   }
 }

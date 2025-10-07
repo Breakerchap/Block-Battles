@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/chiseled_bookshelf"
+    "function": "bb:blocks/placed/chiseled_bookshelf"
   }
 }

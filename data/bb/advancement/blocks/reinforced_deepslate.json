@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/reinforced_deepslate"
+    "function": "bb:blocks/placed/reinforced_deepslate"
   }
 }

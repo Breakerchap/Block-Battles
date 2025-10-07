@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/cauldron"
+    "function": "bb:blocks/placed/cauldron"
   }
 }

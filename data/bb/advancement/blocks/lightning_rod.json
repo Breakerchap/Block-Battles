@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/lightning_rod"
+    "function": "bb:blocks/placed/lightning_rod"
   }
 }

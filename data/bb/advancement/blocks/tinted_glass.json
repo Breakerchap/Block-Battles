@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/tinted_glass"
+    "function": "bb:blocks/placed/tinted_glass"
   }
 }

@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/crimson_hyphae"
+    "function": "bb:blocks/placed/crimson_hyphae"
   }
 }

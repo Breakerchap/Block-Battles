@@ -5,7 +5,7 @@
             "required": false
         },
         {
-            "id": "minecraft:chipped_anvil",
+            "id": "minecraft:damaged_anvil",
             "required": false
         },
         {

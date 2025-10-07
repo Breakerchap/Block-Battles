@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/blue_carpet"
+    "function": "bb:blocks/placed/blue_carpet"
   }
 }

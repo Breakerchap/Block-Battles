@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/player_head"
+    "function": "bb:blocks/placed/player_head"
   }
 }

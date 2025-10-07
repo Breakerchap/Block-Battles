@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/water"
+    "function": "bb:blocks/placed/water"
   }
 }

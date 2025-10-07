@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/magma_block"
+    "function": "bb:blocks/placed/magma_block"
   }
 }

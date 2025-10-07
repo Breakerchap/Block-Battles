@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/tnt"
+    "function": "bb:blocks/placed/tnt"
   }
 }

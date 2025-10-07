@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/mushroom_stem"
+    "function": "bb:blocks/placed/mushroom_stem"
   }
 }

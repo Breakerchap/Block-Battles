@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/daylight_sensor"
+    "function": "bb:blocks/placed/daylight_sensor"
   }
 }

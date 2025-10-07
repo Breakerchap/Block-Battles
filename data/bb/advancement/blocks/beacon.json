@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/beacon"
+    "function": "bb:blocks/placed/beacon"
   }
 }

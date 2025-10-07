@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/torch"
+    "function": "bb:blocks/placed/torch"
   }
 }

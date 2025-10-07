@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/emerald_block"
+    "function": "bb:blocks/placed/emerald_block"
   }
 }

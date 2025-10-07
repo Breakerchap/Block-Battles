@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/skeleton_skull"
+    "function": "bb:blocks/placed/skeleton_skull"
   }
 }

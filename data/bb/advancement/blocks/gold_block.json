@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/gold_block"
+    "function": "bb:blocks/placed/gold_block"
   }
 }

@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/enchanting_table"
+    "function": "bb:blocks/placed/enchanting_table"
   }
 }

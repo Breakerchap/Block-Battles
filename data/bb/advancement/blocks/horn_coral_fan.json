@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/horn_coral_fan"
+    "function": "bb:blocks/placed/horn_coral_fan"
   }
 }

@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/deepslate_redstone_ore"
+    "function": "bb:blocks/placed/deepslate_redstone_ore"
   }
 }

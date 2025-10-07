@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/pink_petals"
+    "function": "bb:blocks/placed/pink_petals"
   }
 }

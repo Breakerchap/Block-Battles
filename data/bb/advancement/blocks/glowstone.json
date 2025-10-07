@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/glowstone"
+    "function": "bb:blocks/placed/glowstone"
   }
 }

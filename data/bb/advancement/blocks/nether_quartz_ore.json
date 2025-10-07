@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/nether_quartz_ore"
+    "function": "bb:blocks/placed/nether_quartz_ore"
   }
 }

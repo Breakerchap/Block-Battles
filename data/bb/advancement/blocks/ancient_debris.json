@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/ancient_debris"
+    "function": "bb:blocks/placed/ancient_debris"
   }
 }

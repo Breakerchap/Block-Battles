@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/dragon_egg"
+    "function": "bb:blocks/placed/dragon_egg"
   }
 }

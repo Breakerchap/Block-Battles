@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/cherry_log"
+    "function": "bb:blocks/placed/cherry_log"
   }
 }

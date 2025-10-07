@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/powder_snow"
+    "function": "bb:blocks/placed/powder_snow"
   }
 }

@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/wither_skeleton_skull"
+    "function": "bb:blocks/placed/wither_skeleton_skull"
   }
 }

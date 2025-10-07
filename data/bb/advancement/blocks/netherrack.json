@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/netherrack"
+    "function": "bb:blocks/placed/netherrack"
   }
 }

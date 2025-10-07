@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/obsidian"
+    "function": "bb:blocks/placed/obsidian"
   }
 }

@@ -116,8 +116,8 @@ scoreboard players reset red dead_bush_count
 scoreboard players reset blue dead_bush_count
 scoreboard players reset red anvil_count
 scoreboard players reset blue anvil_count
-scoreboard players reset red chipped_anvil_count
-scoreboard players reset blue chipped_anvil_count
+scoreboard players reset red damaged_anvil_count
+scoreboard players reset blue damaged_anvil_count
 scoreboard players reset red repeater_count
 scoreboard players reset blue repeater_count
 scoreboard players reset red daylight_sensor_count

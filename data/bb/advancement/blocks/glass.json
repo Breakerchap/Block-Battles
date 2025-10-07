@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/glass"
+    "function": "bb:blocks/placed/glass"
   }
 }

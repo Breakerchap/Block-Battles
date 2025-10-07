@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/furnace"
+    "function": "bb:blocks/placed/furnace"
   }
 }

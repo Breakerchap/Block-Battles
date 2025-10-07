@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/bedrock"
+    "function": "bb:blocks/placed/bedrock"
   }
 }

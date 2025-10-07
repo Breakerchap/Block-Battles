@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/shulker_box"
+    "function": "bb:blocks/placed/shulker_box"
   }
 }

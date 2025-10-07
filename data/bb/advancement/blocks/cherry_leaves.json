@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/cherry_leaves"
+    "function": "bb:blocks/placed/cherry_leaves"
   }
 }

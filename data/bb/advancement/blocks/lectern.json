@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/lectern"
+    "function": "bb:blocks/placed/lectern"
   }
 }

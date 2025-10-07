@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/dead_bush"
+    "function": "bb:blocks/placed/dead_bush"
   }
 }

@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bb:blocks/count/creeper_head"
+    "function": "bb:blocks/placed/creeper_head"
   }
 }

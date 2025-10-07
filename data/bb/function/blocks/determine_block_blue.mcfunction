@@ -1,110 +1,117 @@
-execute if score global most_recent_block matches 1 run return run summon marker ~ ~ ~ {Tags:[blue,slime_block_marker]}
-execute if score global most_recent_block matches 2 run return run summon marker ~ ~ ~ {Tags:[blue,lava_marker]}
-execute if score global most_recent_block matches 3 run return run summon marker ~ ~ ~ {Tags:[blue,tnt_marker]}
-execute if score global most_recent_block matches 4 run return run summon marker ~ ~ ~ {Tags:[blue,obsidian_marker]}
-execute if score global most_recent_block matches 5 run return run summon marker ~ ~ ~ {Tags:[blue,end_crystal_marker]}
-execute if score global most_recent_block matches 6 run return run summon marker ~ ~ ~ {Tags:[blue,deepslate_marker]}
-execute if score global most_recent_block matches 7 run return run summon marker ~ ~ ~ {Tags:[blue,grass_block_marker]}
-execute if score global most_recent_block matches 8 run return run summon marker ~ ~ ~ {Tags:[blue,soul_sand_marker]}
-execute if score global most_recent_block matches 9 run return run summon marker ~ ~ ~ {Tags:[blue,cactus_marker]}
-execute if score global most_recent_block matches 10 run return run summon marker ~ ~ ~ {Tags:[blue,horn_coral_block_marker]}
-execute if score global most_recent_block matches 11 run return run summon marker ~ ~ ~ {Tags:[blue,tube_coral_block_marker]}
-execute if score global most_recent_block matches 12 run return run summon marker ~ ~ ~ {Tags:[blue,bubble_coral_block_marker]}
-execute if score global most_recent_block matches 13 run return run summon marker ~ ~ ~ {Tags:[blue,soul_campfire_marker]}
-execute if score global most_recent_block matches 14 run return run summon marker ~ ~ ~ {Tags:[blue,horn_coral_fan_marker]}
-execute if score global most_recent_block matches 15 run return run summon marker ~ ~ ~ {Tags:[blue,tube_coral_fan_marker]}
-execute if score global most_recent_block matches 16 run return run summon marker ~ ~ ~ {Tags:[blue,bubble_coral_fan_marker]}
-execute if score global most_recent_block matches 17 run return run summon marker ~ ~ ~ {Tags:[blue,prismarine_marker]}
-execute if score global most_recent_block matches 18 run return run summon marker ~ ~ ~ {Tags:[blue,conduit_marker]}
-execute if score global most_recent_block matches 19 run return run summon marker ~ ~ ~ {Tags:[blue,red_bed_marker]}
-execute if score global most_recent_block matches 20 run return run summon marker ~ ~ ~ {Tags:[blue,glass_marker]}
-execute if score global most_recent_block matches 21 run return run summon marker ~ ~ ~ {Tags:[blue,red_tulip_marker]}
-execute if score global most_recent_block matches 22 run return run summon marker ~ ~ ~ {Tags:[blue,water_marker]}
-execute if score global most_recent_block matches 23 run return run summon marker ~ ~ ~ {Tags:[blue,sand_marker]}
-execute if score global most_recent_block matches 24 run return run summon marker ~ ~ ~ {Tags:[blue,cocoa_beans_marker]}
-execute if score global most_recent_block matches 25 run return run summon marker ~ ~ ~ {Tags:[blue,red_carpet_marker]}
-execute if score global most_recent_block matches 26 run return run summon marker ~ ~ ~ {Tags:[blue,blue_carpet_marker]}
-execute if score global most_recent_block matches 27 run return run summon marker ~ ~ ~ {Tags:[blue,green_carpet_marker]}
-execute if score global most_recent_block matches 28 run return run summon marker ~ ~ ~ {Tags:[blue,player_head_marker]}
-execute if score global most_recent_block matches 29 run return run summon marker ~ ~ ~ {Tags:[blue,dragon_head_marker]}
-execute if score global most_recent_block matches 30 run return run summon marker ~ ~ ~ {Tags:[blue,zombie_head_marker]}
-execute if score global most_recent_block matches 31 run return run summon marker ~ ~ ~ {Tags:[blue,creeper_head_marker]}
-execute if score global most_recent_block matches 32 run return run summon marker ~ ~ ~ {Tags:[blue,piglin_head_marker]}
-execute if score global most_recent_block matches 33 run return run summon marker ~ ~ ~ {Tags:[blue,skeleton_skull_marker]}
-execute if score global most_recent_block matches 34 run return run summon marker ~ ~ ~ {Tags:[blue,wither_skeleton_skull_marker]}
-execute if score global most_recent_block matches 35 run return run summon marker ~ ~ ~ {Tags:[blue,reinforced_deepslate_marker]}
-execute if score global most_recent_block matches 36 run return run summon marker ~ ~ ~ {Tags:[blue,deepslate_bricks_marker]}
-execute if score global most_recent_block matches 37 run return run summon marker ~ ~ ~ {Tags:[blue,deepslate_tiles_marker]}
-execute if score global most_recent_block matches 38 run return run summon marker ~ ~ ~ {Tags:[blue,deepslate_redstone_ore_marker]}
-execute if score global most_recent_block matches 39 run return run summon marker ~ ~ ~ {Tags:[blue,deepslate_gold_ore_marker]}
-execute if score global most_recent_block matches 40 run return run summon marker ~ ~ ~ {Tags:[blue,jungle_log_marker]}
-execute if score global most_recent_block matches 41 run return run summon marker ~ ~ ~ {Tags:[blue,respawn_anchor_marker]}
-execute if score global most_recent_block matches 42 run return run summon marker ~ ~ ~ {Tags:[blue,glowstone_marker]}
-execute if score global most_recent_block matches 43 run return run summon marker ~ ~ ~ {Tags:[blue,carved_pumpkin_marker]}
-execute if score global most_recent_block matches 44 run return run summon marker ~ ~ ~ {Tags:[blue,bedrock_marker]}
-execute if score global most_recent_block matches 45 run return run summon marker ~ ~ ~ {Tags:[blue,end_stone_marker]}
-execute if score global most_recent_block matches 46 run return run summon marker ~ ~ ~ {Tags:[blue,shulker_box_marker]}
-execute if score global most_recent_block matches 47 run return run summon marker ~ ~ ~ {Tags:[blue,dragon_egg_marker]}
-execute if score global most_recent_block matches 48 run return run summon marker ~ ~ ~ {Tags:[blue,iron_block_marker]}
-execute if score global most_recent_block matches 49 run return run summon marker ~ ~ ~ {Tags:[blue,emerald_block_marker]}
-execute if score global most_recent_block matches 50 run return run summon marker ~ ~ ~ {Tags:[blue,diamond_block_marker]}
-execute if score global most_recent_block matches 51 run return run summon marker ~ ~ ~ {Tags:[blue,gold_block_marker]}
-execute if score global most_recent_block matches 52 run return run summon marker ~ ~ ~ {Tags:[blue,redstone_block_marker]}
-execute if score global most_recent_block matches 53 run return run summon marker ~ ~ ~ {Tags:[blue,netherite_block_marker]}
-execute if score global most_recent_block matches 54 run return run summon marker ~ ~ ~ {Tags:[blue,coal_block_marker]}
-execute if score global most_recent_block matches 55 run return run summon marker ~ ~ ~ {Tags:[blue,lapis_block_marker]}
-execute if score global most_recent_block matches 56 run return run summon marker ~ ~ ~ {Tags:[blue,lightning_rod_marker]}
-execute if score global most_recent_block matches 57 run return run summon marker ~ ~ ~ {Tags:[blue,moss_block_marker]}
-execute if score global most_recent_block matches 58 run return run summon marker ~ ~ ~ {Tags:[blue,dead_bush_marker]}
-execute if score global most_recent_block matches 59 run return run summon marker ~ ~ ~ {Tags:[blue,anvil_marker]}
-execute if score global most_recent_block matches 60 run return run summon marker ~ ~ ~ {Tags:[blue,chipped_anvil_marker]}
-execute if score global most_recent_block matches 61 run return run summon marker ~ ~ ~ {Tags:[blue,repeater_marker]}
-execute if score global most_recent_block matches 62 run return run summon marker ~ ~ ~ {Tags:[blue,daylight_detector_marker]}
-execute if score global most_recent_block matches 63 run return run summon marker ~ ~ ~ {Tags:[blue,powder_snow_marker]}
-execute if score global most_recent_block matches 64 run return run summon marker ~ ~ ~ {Tags:[blue,beacon_marker]}
-execute if score global most_recent_block matches 65 run return run summon marker ~ ~ ~ {Tags:[blue,redstone_torch_marker]}
-execute if score global most_recent_block matches 66 run return run summon marker ~ ~ ~ {Tags:[blue,nether_bricks_marker]}
-execute if score global most_recent_block matches 67 run return run summon marker ~ ~ ~ {Tags:[blue,spawner_marker]}
-execute if score global most_recent_block matches 68 run return run summon marker ~ ~ ~ {Tags:[blue,cake_marker]}
-execute if score global most_recent_block matches 69 run return run summon marker ~ ~ ~ {Tags:[blue,polished_blackstone_bricks_marker]}
-execute if score global most_recent_block matches 70 run return run summon marker ~ ~ ~ {Tags:[blue,candle_marker]}
-execute if score global most_recent_block matches 71 run return run summon marker ~ ~ ~ {Tags:[blue,soul_lantern_marker]}
-execute if score global most_recent_block matches 72 run return run summon marker ~ ~ ~ {Tags:[blue,soul_torch_marker]}
-execute if score global most_recent_block matches 73 run return run summon marker ~ ~ ~ {Tags:[blue,pointed_dripstone_marker]}
-execute if score global most_recent_block matches 74 run return run summon marker ~ ~ ~ {Tags:[blue,furnace_marker]}
-execute if score global most_recent_block matches 75 run return run summon marker ~ ~ ~ {Tags:[blue,campfire_marker]}
-execute if score global most_recent_block matches 76 run return run summon marker ~ ~ ~ {Tags:[blue,enchanting_table_marker]}
-execute if score global most_recent_block matches 77 run return run summon marker ~ ~ ~ {Tags:[blue,crying_obsidian_marker]}
-execute if score global most_recent_block matches 78 run return run summon marker ~ ~ ~ {Tags:[blue,magma_block_marker]}
-execute if score global most_recent_block matches 79 run return run summon marker ~ ~ ~ {Tags:[blue,sculk_sensor_marker]}
-execute if score global most_recent_block matches 80 run return run summon marker ~ ~ ~ {Tags:[blue,calibrated_sculk_sensor_marker]}
-execute if score global most_recent_block matches 81 run return run summon marker ~ ~ ~ {Tags:[blue,sculk_shrieker_marker]}
-execute if score global most_recent_block matches 82 run return run summon marker ~ ~ ~ {Tags:[blue,stonecutter_marker]}
-execute if score global most_recent_block matches 83 run return run summon marker ~ ~ ~ {Tags:[blue,wither_rose_marker]}
-execute if score global most_recent_block matches 84 run return run summon marker ~ ~ ~ {Tags:[blue,torchflower_marker]}
-execute if score global most_recent_block matches 85 run return run summon marker ~ ~ ~ {Tags:[blue,bookshelf_marker]}
-execute if score global most_recent_block matches 86 run return run summon marker ~ ~ ~ {Tags:[blue,chiseled_bookshelf_marker]}
-execute if score global most_recent_block matches 87 run return run summon marker ~ ~ ~ {Tags:[blue,chest_marker]}
-execute if score global most_recent_block matches 88 run return run summon marker ~ ~ ~ {Tags:[blue,nether_quartz_ore_marker]}
-execute if score global most_recent_block matches 89 run return run summon marker ~ ~ ~ {Tags:[blue,nether_gold_ore_marker]}
-execute if score global most_recent_block matches 90 run return run summon marker ~ ~ ~ {Tags:[blue,ancient_debris_marker]}
-execute if score global most_recent_block matches 91 run return run summon marker ~ ~ ~ {Tags:[blue,lectern_marker]}
-execute if score global most_recent_block matches 92 run return run summon marker ~ ~ ~ {Tags:[blue,netherrack_marker]}
-execute if score global most_recent_block matches 93 run return run summon marker ~ ~ ~ {Tags:[blue,smithing_table_marker]}
-execute if score global most_recent_block matches 94 run return run summon marker ~ ~ ~ {Tags:[blue,dispenser_marker]}
-execute if score global most_recent_block matches 95 run return run summon marker ~ ~ ~ {Tags:[blue,brewing_stand_marker]}
-execute if score global most_recent_block matches 96 run return run summon marker ~ ~ ~ {Tags:[blue,cauldron_marker]}
-execute if score global most_recent_block matches 97 run return run summon marker ~ ~ ~ {Tags:[blue,composter_marker]}
-execute if score global most_recent_block matches 98 run return run summon marker ~ ~ ~ {Tags:[blue,snow_marker]}
-execute if score global most_recent_block matches 99 run return run summon marker ~ ~ ~ {Tags:[blue,tinted_glass_marker]}
-execute if score global most_recent_block matches 100 run return run summon marker ~ ~ ~ {Tags:[blue,vault_marker]}
-execute if score global most_recent_block matches 101 run return run summon marker ~ ~ ~ {Tags:[blue,mushroom_stem_marker]}
-execute if score global most_recent_block matches 102 run return run summon marker ~ ~ ~ {Tags:[blue,torch_marker]}
-execute if score global most_recent_block matches 103 run return run summon marker ~ ~ ~ {Tags:[blue,sculk_catalyst_marker]}
-execute if score global most_recent_block matches 104 run return run summon marker ~ ~ ~ {Tags:[blue,sculk_marker]}
-execute if score global most_recent_block matches 105 run return run summon marker ~ ~ ~ {Tags:[blue,glass_pane_marker]}
-execute if score global most_recent_block matches 106 run return run summon marker ~ ~ ~ {Tags:[blue,cherry_log_marker]}
-execute if score global most_recent_block matches 107 run return run summon marker ~ ~ ~ {Tags:[blue,cherry_leaves_marker]}
-execute if score global most_recent_block matches 108 run return run summon marker ~ ~ ~ {Tags:[blue,pink_petals_marker]}
-execute if score global most_recent_block matches 109 run return run summon marker ~ ~ ~ {Tags:[blue,crimson_hyphae_marker]}
-execute if score global most_recent_block matches 110 run return run summon marker ~ ~ ~ {Tags:[blue,warped_hyphae_marker]}
+execute if score global most_recent_block matches 1 run summon marker ~ ~ ~ {Tags:[blue,slime_block_marker]}
+execute if score global most_recent_block matches 2 run summon marker ~ ~ ~ {Tags:[blue,lava_marker]}
+execute if score global most_recent_block matches 3 run summon marker ~ ~ ~ {Tags:[blue,tnt_marker]}
+execute if score global most_recent_block matches 4 run summon marker ~ ~ ~ {Tags:[blue,obsidian_marker]}
+execute if score global most_recent_block matches 5 run summon marker ~ ~ ~ {Tags:[blue,end_crystal_marker]}
+execute if score global most_recent_block matches 6 run summon marker ~ ~ ~ {Tags:[blue,deepslate_marker]}
+execute if score global most_recent_block matches 7 run summon marker ~ ~ ~ {Tags:[blue,grass_block_marker]}
+execute if score global most_recent_block matches 8 run summon marker ~ ~ ~ {Tags:[blue,farmland_marker]}
+execute if score global most_recent_block matches 9 run summon marker ~ ~ ~ {Tags:[blue,soul_sand_marker]}
+execute if score global most_recent_block matches 10 run summon marker ~ ~ ~ {Tags:[blue,cactus_marker]}
+execute if score global most_recent_block matches 11 run summon marker ~ ~ ~ {Tags:[blue,horn_coral_block_marker]}
+execute if score global most_recent_block matches 12 run summon marker ~ ~ ~ {Tags:[blue,tube_coral_block_marker]}
+execute if score global most_recent_block matches 13 run summon marker ~ ~ ~ {Tags:[blue,bubble_coral_block_marker]}
+execute if score global most_recent_block matches 14 run summon marker ~ ~ ~ {Tags:[blue,soul_campfire_marker]}
+execute if score global most_recent_block matches 15 run summon marker ~ ~ ~ {Tags:[blue,horn_coral_fan_marker]}
+execute if score global most_recent_block matches 16 run summon marker ~ ~ ~ {Tags:[blue,tube_coral_fan_marker]}
+execute if score global most_recent_block matches 17 run summon marker ~ ~ ~ {Tags:[blue,bubble_coral_fan_marker]}
+execute if score global most_recent_block matches 18 run summon marker ~ ~ ~ {Tags:[blue,prismarine_marker]}
+execute if score global most_recent_block matches 19 run summon marker ~ ~ ~ {Tags:[blue,conduit_marker]}
+execute if score global most_recent_block matches 20 run summon marker ~ ~ ~ {Tags:[blue,red_bed_marker]}
+execute if score global most_recent_block matches 21 run summon marker ~ ~ ~ {Tags:[blue,glass_marker]}
+execute if score global most_recent_block matches 22 run summon marker ~ ~ ~ {Tags:[blue,red_tulip_marker]}
+execute if score global most_recent_block matches 23 run summon marker ~ ~ ~ {Tags:[blue,water_marker]}
+execute if score global most_recent_block matches 24 run summon marker ~ ~ ~ {Tags:[blue,sand_marker]}
+execute if score global most_recent_block matches 25 run summon marker ~ ~ ~ {Tags:[blue,cocoa_marker]}
+execute if score global most_recent_block matches 26 run summon marker ~ ~ ~ {Tags:[blue,red_carpet_marker]}
+execute if score global most_recent_block matches 27 run summon marker ~ ~ ~ {Tags:[blue,blue_carpet_marker]}
+execute if score global most_recent_block matches 28 run summon marker ~ ~ ~ {Tags:[blue,green_carpet_marker]}
+execute if score global most_recent_block matches 29 run summon marker ~ ~ ~ {Tags:[blue,player_head_marker]}
+execute if score global most_recent_block matches 30 run summon marker ~ ~ ~ {Tags:[blue,dragon_head_marker]}
+execute if score global most_recent_block matches 31 run summon marker ~ ~ ~ {Tags:[blue,zombie_head_marker]}
+execute if score global most_recent_block matches 32 run summon marker ~ ~ ~ {Tags:[blue,creeper_head_marker]}
+execute if score global most_recent_block matches 33 run summon marker ~ ~ ~ {Tags:[blue,piglin_head_marker]}
+execute if score global most_recent_block matches 34 run summon marker ~ ~ ~ {Tags:[blue,skeleton_skull_marker]}
+execute if score global most_recent_block matches 35 run summon marker ~ ~ ~ {Tags:[blue,wither_skeleton_skull_marker]}
+execute if score global most_recent_block matches 36 run summon marker ~ ~ ~ {Tags:[blue,reinforced_deepslate_marker]}
+execute if score global most_recent_block matches 37 run summon marker ~ ~ ~ {Tags:[blue,deepslate_bricks_marker]}
+execute if score global most_recent_block matches 38 run summon marker ~ ~ ~ {Tags:[blue,deepslate_tiles_marker]}
+execute if score global most_recent_block matches 39 run summon marker ~ ~ ~ {Tags:[blue,deepslate_redstone_ore_marker]}
+execute if score global most_recent_block matches 40 run summon marker ~ ~ ~ {Tags:[blue,deepslate_gold_ore_marker]}
+execute if score global most_recent_block matches 41 run summon marker ~ ~ ~ {Tags:[blue,jungle_log_marker]}
+execute if score global most_recent_block matches 42 run summon marker ~ ~ ~ {Tags:[blue,respawn_anchor_marker]}
+execute if score global most_recent_block matches 43 run summon marker ~ ~ ~ {Tags:[blue,glowstone_marker]}
+execute if score global most_recent_block matches 44 run summon marker ~ ~ ~ {Tags:[blue,carved_pumpkin_marker]}
+execute if score global most_recent_block matches 45 run summon marker ~ ~ ~ {Tags:[blue,bedrock_marker]}
+execute if score global most_recent_block matches 46 run summon marker ~ ~ ~ {Tags:[blue,end_stone_marker]}
+execute if score global most_recent_block matches 47 run summon marker ~ ~ ~ {Tags:[blue,shulker_box_marker]}
+execute if score global most_recent_block matches 48 run summon marker ~ ~ ~ {Tags:[blue,dragon_egg_marker]}
+execute if score global most_recent_block matches 49 run summon marker ~ ~ ~ {Tags:[blue,iron_block_marker]}
+execute if score global most_recent_block matches 50 run summon marker ~ ~ ~ {Tags:[blue,emerald_block_marker]}
+execute if score global most_recent_block matches 51 run summon marker ~ ~ ~ {Tags:[blue,diamond_block_marker]}
+execute if score global most_recent_block matches 52 run summon marker ~ ~ ~ {Tags:[blue,gold_block_marker]}
+execute if score global most_recent_block matches 53 run summon marker ~ ~ ~ {Tags:[blue,redstone_block_marker]}
+execute if score global most_recent_block matches 54 run summon marker ~ ~ ~ {Tags:[blue,netherite_block_marker]}
+execute if score global most_recent_block matches 55 run summon marker ~ ~ ~ {Tags:[blue,coal_block_marker]}
+execute if score global most_recent_block matches 56 run summon marker ~ ~ ~ {Tags:[blue,lapis_block_marker]}
+execute if score global most_recent_block matches 57 run summon marker ~ ~ ~ {Tags:[blue,lightning_rod_marker]}
+execute if score global most_recent_block matches 58 run summon marker ~ ~ ~ {Tags:[blue,moss_block_marker]}
+execute if score global most_recent_block matches 59 run summon marker ~ ~ ~ {Tags:[blue,dead_bush_marker]}
+execute if score global most_recent_block matches 60 run summon marker ~ ~ ~ {Tags:[blue,dirt_marker]}
+execute if score global most_recent_block matches 61 run summon marker ~ ~ ~ {Tags:[blue,anvil_marker]}
+execute if score global most_recent_block matches 62 run summon marker ~ ~ ~ {Tags:[blue,damaged_anvil_marker]}
+execute if score global most_recent_block matches 63 run summon marker ~ ~ ~ {Tags:[blue,repeater_marker]}
+execute if score global most_recent_block matches 64 run summon marker ~ ~ ~ {Tags:[blue,daylight_detector_marker]}
+execute if score global most_recent_block matches 65 run summon marker ~ ~ ~ {Tags:[blue,powder_snow_marker]}
+execute if score global most_recent_block matches 66 run summon marker ~ ~ ~ {Tags:[blue,beacon_marker]}
+execute if score global most_recent_block matches 67 run summon marker ~ ~ ~ {Tags:[blue,redstone_torch_marker]}
+execute if score global most_recent_block matches 68 run summon marker ~ ~ ~ {Tags:[blue,nether_bricks_marker]}
+execute if score global most_recent_block matches 69 run summon marker ~ ~ ~ {Tags:[blue,spawner_marker]}
+execute if score global most_recent_block matches 70 run summon marker ~ ~ ~ {Tags:[blue,cake_marker]}
+execute if score global most_recent_block matches 71 run summon marker ~ ~ ~ {Tags:[blue,polished_blackstone_bricks_marker]}
+execute if score global most_recent_block matches 72 run summon marker ~ ~ ~ {Tags:[blue,candle_marker]}
+execute if score global most_recent_block matches 73 run summon marker ~ ~ ~ {Tags:[blue,soul_lantern_marker]}
+execute if score global most_recent_block matches 74 run summon marker ~ ~ ~ {Tags:[blue,soul_torch_marker]}
+execute if score global most_recent_block matches 75 run summon marker ~ ~ ~ {Tags:[blue,pointed_dripstone_marker]}
+execute if score global most_recent_block matches 76 run summon marker ~ ~ ~ {Tags:[blue,furnace_marker]}
+execute if score global most_recent_block matches 77 run summon marker ~ ~ ~ {Tags:[blue,campfire_marker]}
+execute if score global most_recent_block matches 78 run summon marker ~ ~ ~ {Tags:[blue,enchanting_table_marker]}
+execute if score global most_recent_block matches 79 run summon marker ~ ~ ~ {Tags:[blue,crying_obsidian_marker]}
+execute if score global most_recent_block matches 80 run summon marker ~ ~ ~ {Tags:[blue,magma_block_marker]}
+execute if score global most_recent_block matches 81 run summon marker ~ ~ ~ {Tags:[blue,sculk_sensor_marker]}
+execute if score global most_recent_block matches 82 run summon marker ~ ~ ~ {Tags:[blue,calibrated_sculk_sensor_marker]}
+execute if score global most_recent_block matches 83 run summon marker ~ ~ ~ {Tags:[blue,sculk_shrieker_marker]}
+execute if score global most_recent_block matches 84 run summon marker ~ ~ ~ {Tags:[blue,stonecutter_marker]}
+execute if score global most_recent_block matches 85 run summon marker ~ ~ ~ {Tags:[blue,wither_rose_marker]}
+execute if score global most_recent_block matches 86 run summon marker ~ ~ ~ {Tags:[blue,torchflower_marker]}
+execute if score global most_recent_block matches 87 run summon marker ~ ~ ~ {Tags:[blue,bookshelf_marker]}
+execute if score global most_recent_block matches 88 run summon marker ~ ~ ~ {Tags:[blue,chiseled_bookshelf_marker]}
+execute if score global most_recent_block matches 89 run summon marker ~ ~ ~ {Tags:[blue,chest_marker]}
+execute if score global most_recent_block matches 90 run summon marker ~ ~ ~ {Tags:[blue,nether_quartz_ore_marker]}
+execute if score global most_recent_block matches 91 run summon marker ~ ~ ~ {Tags:[blue,nether_gold_ore_marker]}
+execute if score global most_recent_block matches 92 run summon marker ~ ~ ~ {Tags:[blue,ancient_debris_marker]}
+execute if score global most_recent_block matches 93 run summon marker ~ ~ ~ {Tags:[blue,lectern_marker]}
+execute if score global most_recent_block matches 94 run summon marker ~ ~ ~ {Tags:[blue,netherrack_marker]}
+execute if score global most_recent_block matches 95 run summon marker ~ ~ ~ {Tags:[blue,smithing_table_marker]}
+execute if score global most_recent_block matches 96 run summon marker ~ ~ ~ {Tags:[blue,oak_planks_marker]}
+execute if score global most_recent_block matches 97 run summon marker ~ ~ ~ {Tags:[blue,dispenser_marker]}
+execute if score global most_recent_block matches 98 run summon marker ~ ~ ~ {Tags:[blue,brewing_stand_marker]}
+execute if score global most_recent_block matches 99 run summon marker ~ ~ ~ {Tags:[blue,cauldron_marker]}
+execute if score global most_recent_block matches 100 run summon marker ~ ~ ~ {Tags:[blue,composter_marker]}
+execute if score global most_recent_block matches 101 run summon marker ~ ~ ~ {Tags:[blue,snow_marker]}
+execute if score global most_recent_block matches 102 run summon marker ~ ~ ~ {Tags:[blue,tinted_glass_marker]}
+execute if score global most_recent_block matches 103 run summon marker ~ ~ ~ {Tags:[blue,vault_marker]}
+execute if score global most_recent_block matches 104 run summon marker ~ ~ ~ {Tags:[blue,mushroom_stem_marker]}
+execute if score global most_recent_block matches 105 run summon marker ~ ~ ~ {Tags:[blue,podzol_marker]}
+execute if score global most_recent_block matches 106 run summon marker ~ ~ ~ {Tags:[blue,mycelium_marker]}
+execute if score global most_recent_block matches 107 run summon marker ~ ~ ~ {Tags:[blue,torch_marker]}
+execute if score global most_recent_block matches 108 run summon marker ~ ~ ~ {Tags:[blue,sculk_catalyst_marker]}
+execute if score global most_recent_block matches 109 run summon marker ~ ~ ~ {Tags:[blue,sculk_marker]}
+execute if score global most_recent_block matches 110 run summon marker ~ ~ ~ {Tags:[blue,glass_pane_marker]}
+execute if score global most_recent_block matches 111 run summon marker ~ ~ ~ {Tags:[blue,cherry_log_marker]}
+execute if score global most_recent_block matches 112 run summon marker ~ ~ ~ {Tags:[blue,cherry_leaves_marker]}
+execute if score global most_recent_block matches 113 run summon marker ~ ~ ~ {Tags:[blue,pink_petals_marker]}
+execute if score global most_recent_block matches 114 run summon marker ~ ~ ~ {Tags:[blue,crimson_hyphae_marker]}
+execute if score global most_recent_block matches 115 run summon marker ~ ~ ~ {Tags:[blue,crimson_nylium_marker]}
+execute if score global most_recent_block matches 116 run summon marker ~ ~ ~ {Tags:[blue,warped_hyphae_marker]}
+execute if score global most_recent_block matches 117 run summon marker ~ ~ ~ {Tags:[blue,warped_nylium_marker]}
